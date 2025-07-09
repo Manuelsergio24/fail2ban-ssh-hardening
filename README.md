@@ -37,3 +37,4 @@ Output confirmed it was watching /var/log/auth.log and tracking failed SSH login
 	•	How to configure host-based intrusion prevention tools (Fail2Ban)
 	•	How to troubleshoot log files and system services (systemctl, journalctl)
 	•	Why log-based security is essential for real-world systems
+#
