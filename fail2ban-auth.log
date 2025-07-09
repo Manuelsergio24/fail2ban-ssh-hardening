@@ -1,0 +1,827 @@
+2025-07-06T18:00:10.777566+00:00 ubuntu gdm-password]: gkr-pam: unlocked login keyring
+2025-07-06T18:00:47.117768+00:00 ubuntu sshd[5176]: Connection closed by 192.168.1.144 port 54547
+2025-07-06T18:00:58.853228+00:00 ubuntu pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-06T18:00:58.856422+00:00 ubuntu pkexec[5183]: ubuntu: Executing command [USER=root] [TTY=unknown] [CWD=/home/ubuntu] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-07-06T18:05:01.800390+00:00 ubuntu CRON[5195]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-06T18:05:01.805140+00:00 ubuntu CRON[5195]: pam_unix(cron:session): session closed for user root
+2025-07-06T18:05:16.827172+00:00 ubuntu sshd[5200]: error: kex_exchange_identification: read: Connection reset by peer
+2025-07-06T18:05:16.827668+00:00 ubuntu sshd[5200]: Connection reset by 192.168.1.144 port 54750
+2025-07-06T18:05:16.859664+00:00 ubuntu sshd[5201]: Connection reset by 192.168.1.144 port 54764 [preauth]
+2025-07-06T18:05:20.708019+00:00 ubuntu sshd[5203]: banner exchange: Connection from 192.168.1.144 port 54766: invalid format
+2025-07-06T18:05:20.719906+00:00 ubuntu sshd[5204]: banner exchange: Connection from 192.168.1.144 port 54767: invalid format
+2025-07-06T18:05:20.731192+00:00 ubuntu sshd[5205]: banner exchange: Connection from 192.168.1.144 port 54769: invalid format
+2025-07-06T18:05:20.742537+00:00 ubuntu sshd[5206]: banner exchange: Connection from 192.168.1.144 port 54770: invalid format
+2025-07-06T18:05:20.755025+00:00 ubuntu sshd[5207]: banner exchange: Connection from 192.168.1.144 port 54772: invalid format
+2025-07-06T18:05:20.768978+00:00 ubuntu sshd[5208]: banner exchange: Connection from 192.168.1.144 port 54774: invalid format
+2025-07-06T18:05:20.785840+00:00 ubuntu sshd[5209]: banner exchange: Connection from 192.168.1.144 port 54776: invalid format
+2025-07-06T18:05:20.796582+00:00 ubuntu sshd[5210]: banner exchange: Connection from 192.168.1.144 port 54777: invalid format
+2025-07-06T18:05:20.804198+00:00 ubuntu sshd[5211]: banner exchange: Connection from 192.168.1.144 port 54778: invalid format
+2025-07-06T18:05:21.822716+00:00 ubuntu sshd[5212]: error: kex_exchange_identification: read: Connection reset by peer
+2025-07-06T18:05:21.823074+00:00 ubuntu sshd[5212]: Connection reset by 192.168.1.144 port 54780
+2025-07-06T18:05:34.247425+00:00 ubuntu sshd[5213]: error: kex_exchange_identification: read: Connection reset by peer
+2025-07-06T18:05:34.247761+00:00 ubuntu sshd[5213]: Connection reset by 192.168.1.144 port 54794
+2025-07-06T18:06:10.151241+00:00 ubuntu sshd[5216]: Invalid user  from 192.168.1.144 port 56134
+2025-07-06T18:06:10.163046+00:00 ubuntu sshd[5216]: Connection reset by invalid user  192.168.1.144 port 56134 [preauth]
+2025-07-06T18:06:10.252994+00:00 ubuntu sshd[5218]: Connection reset by 192.168.1.144 port 56135 [preauth]
+2025-07-06T18:06:10.274198+00:00 ubuntu sshd[5220]: error: Protocol major versions differ: 2 vs. 9
+2025-07-06T18:06:10.274614+00:00 ubuntu sshd[5220]: banner exchange: Connection from 192.168.1.144 port 56136: could not read protocol version
+2025-07-06T18:06:11.300018+00:00 ubuntu sshd[5221]: error: Protocol major versions differ: 2 vs. 1
+2025-07-06T18:06:11.300284+00:00 ubuntu sshd[5221]: banner exchange: Connection from 192.168.1.144 port 56139: could not read protocol version
+2025-07-06T18:06:12.325137+00:00 ubuntu sshd[5222]: error: Protocol major versions differ: 2 vs. 1
+2025-07-06T18:06:12.325544+00:00 ubuntu sshd[5222]: banner exchange: Connection from 192.168.1.144 port 56141: could not read protocol version
+2025-07-06T18:06:13.352077+00:00 ubuntu sshd[5223]: Connection reset by 192.168.1.144 port 56142 [preauth]
+2025-07-06T18:06:14.377182+00:00 ubuntu sshd[5225]: Connection reset by 192.168.1.144 port 56147 [preauth]
+2025-07-06T18:06:15.511650+00:00 ubuntu sshd[5228]: Unable to negotiate with 192.168.1.144 port 56149: no matching key exchange method found. Their offer: ${jndi:ldap://log4shell-ssh-ci9b6CvqXPM51yHlglNZ${lower:ten}.w.nessus.org/nessus} [preauth]
+2025-07-06T18:06:15.618675+00:00 ubuntu sshd[5230]: Disconnecting 192.168.1.144 port 56150: bad service request ${jndi:ldap://log4shell-ssh-ci9b6CvqXPM51yHlglNZ${lower:ten}.w.nessus.org/nessus [preauth]
+2025-07-06T18:06:15.735890+00:00 ubuntu sshd[5232]: Invalid user nessus from 192.168.1.144 port 56151
+2025-07-06T18:06:15.742637+00:00 ubuntu sshd[5232]: fatal: userauth_finish: send failure packet: Connection reset by peer [preauth]
+2025-07-06T18:06:15.848269+00:00 ubuntu sshd[5234]: Invalid user nessus from 192.168.1.144 port 56152
+2025-07-06T18:06:15.854661+00:00 ubuntu sshd[5234]: fatal: userauth_finish: send failure packet: Connection reset by peer [preauth]
+2025-07-06T18:06:15.964376+00:00 ubuntu sshd[5236]: Invalid user nessus from 192.168.1.144 port 56153
+2025-07-06T18:06:15.969894+00:00 ubuntu sshd[5236]: fatal: userauth_finish: send failure packet: Connection reset by peer [preauth]
+2025-07-06T18:06:16.070811+00:00 ubuntu sshd[5238]: Invalid user ${jndi from 192.168.1.144 port 56154
+2025-07-06T18:06:16.073525+00:00 ubuntu sshd[5238]: pam_unix(sshd:auth): check pass; user unknown
+2025-07-06T18:06:16.073599+00:00 ubuntu sshd[5238]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.144 
+2025-07-06T18:06:18.442650+00:00 ubuntu sshd[5238]: Failed password for invalid user ${jndi from 192.168.1.144 port 56154 ssh2
+2025-07-06T18:06:20.681995+00:00 ubuntu sshd[5238]: Connection reset by invalid user ${jndi 192.168.1.144 port 56154 [preauth]
+2025-07-06T18:06:46.462849+00:00 ubuntu sshd[5241]: error: kex_exchange_identification: read: Connection reset by peer
+2025-07-06T18:06:46.463287+00:00 ubuntu sshd[5241]: Connection reset by 192.168.1.144 port 56180
+2025-07-06T18:07:26.665140+00:00 ubuntu sshd[5242]: Connection reset by 192.168.1.144 port 56262 [preauth]
+2025-07-06T18:07:31.788576+00:00 ubuntu sshd[5244]: dispatch_protocol_error: type 52 seq 4 [preauth]
+2025-07-06T18:07:31.788732+00:00 ubuntu sshd[5244]: dispatch_protocol_error: type 90 seq 5 [preauth]
+2025-07-06T18:07:31.788956+00:00 ubuntu sshd[5244]: Connection reset by 192.168.1.144 port 56568 [preauth]
+2025-07-06T18:30:01.258428+00:00 ubuntu CRON[5273]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-06T18:30:01.262010+00:00 ubuntu CRON[5273]: pam_unix(cron:session): session closed for user root
+2025-07-06T18:31:55.868442+00:00 ubuntu gdm-password]: gkr-pam: unlocked login keyring
+2025-07-06T18:32:05.740561+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/iptables -L
+2025-07-06T18:32:05.740879+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-06T18:32:05.759601+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-06T18:32:41.183389+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/iptables -A INPUT -p icmp --icmp-type timestamp-request -j DROP
+2025-07-06T18:32:41.184048+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-06T18:32:41.196939+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-06T18:32:58.754698+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/iptables -A OUTPUT -p icmp --icmp-type timestamp-reply -j DROP
+2025-07-06T18:32:58.755113+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-06T18:32:58.757751+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-06T18:33:08.699441+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/iptables -L -v -n
+2025-07-06T18:33:08.703040+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-06T18:33:08.703075+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-06T18:33:33.296706+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/iptables -L -v -n
+2025-07-06T18:33:33.298289+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-06T18:33:33.302404+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-06T18:35:01.284470+00:00 ubuntu CRON[5406]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-06T18:35:01.291347+00:00 ubuntu CRON[5406]: pam_unix(cron:session): session closed for user root
+2025-07-06T18:35:54.155351+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+2025-07-06T18:35:54.155889+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-06T18:35:56.116822+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-06T18:36:12.267664+00:00 ubuntu pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-06T18:36:12.268872+00:00 ubuntu pkexec[5756]: ubuntu: Executing command [USER=root] [TTY=unknown] [CWD=/home/ubuntu] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-07-06T18:37:00.299420+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt-get install iptables-persistent
+2025-07-06T18:37:00.299890+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-06T18:37:11.011425+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-06T18:39:12.257227+00:00 ubuntu pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-06T18:39:12.259503+00:00 ubuntu pkexec[6811]: ubuntu: Executing command [USER=root] [TTY=unknown] [CWD=/home/ubuntu] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-07-06T18:41:59.532136+00:00 ubuntu sshd[6831]: error: kex_exchange_identification: read: Connection reset by peer
+2025-07-06T18:41:59.532764+00:00 ubuntu sshd[6831]: Connection reset by 192.168.1.144 port 57467
+2025-07-06T18:42:00.483785+00:00 ubuntu sshd[6832]: Connection reset by 192.168.1.144 port 57471 [preauth]
+2025-07-06T18:42:03.424022+00:00 ubuntu sshd[6834]: banner exchange: Connection from 192.168.1.144 port 57473: invalid format
+2025-07-06T18:42:03.438906+00:00 ubuntu sshd[6835]: banner exchange: Connection from 192.168.1.144 port 57474: invalid format
+2025-07-06T18:42:03.448725+00:00 ubuntu sshd[6836]: banner exchange: Connection from 192.168.1.144 port 57476: invalid format
+2025-07-06T18:42:03.462465+00:00 ubuntu sshd[6837]: banner exchange: Connection from 192.168.1.144 port 57478: invalid format
+2025-07-06T18:42:03.475595+00:00 ubuntu sshd[6838]: banner exchange: Connection from 192.168.1.144 port 57480: invalid format
+2025-07-06T18:42:03.489291+00:00 ubuntu sshd[6839]: banner exchange: Connection from 192.168.1.144 port 57481: invalid format
+2025-07-06T18:42:03.508056+00:00 ubuntu sshd[6840]: banner exchange: Connection from 192.168.1.144 port 57483: invalid format
+2025-07-06T18:42:03.519520+00:00 ubuntu sshd[6841]: banner exchange: Connection from 192.168.1.144 port 57484: invalid format
+2025-07-06T18:42:03.528889+00:00 ubuntu sshd[6842]: banner exchange: Connection from 192.168.1.144 port 57486: invalid format
+2025-07-06T18:42:04.545035+00:00 ubuntu sshd[6843]: error: kex_exchange_identification: read: Connection reset by peer
+2025-07-06T18:42:04.545596+00:00 ubuntu sshd[6843]: Connection reset by 192.168.1.144 port 57487
+2025-07-06T18:42:51.592346+00:00 ubuntu sshd[6846]: error: kex_exchange_identification: read: Connection reset by peer
+2025-07-06T18:42:51.593353+00:00 ubuntu sshd[6846]: Connection reset by 192.168.1.144 port 58810
+2025-07-06T18:42:59.501025+00:00 ubuntu sshd[6847]: Invalid user  from 192.168.1.144 port 58826
+2025-07-06T18:42:59.509075+00:00 ubuntu sshd[6847]: Connection reset by invalid user  192.168.1.144 port 58826 [preauth]
+2025-07-06T18:42:59.602502+00:00 ubuntu sshd[6849]: Connection reset by 192.168.1.144 port 58827 [preauth]
+2025-07-06T18:42:59.626384+00:00 ubuntu sshd[6851]: error: Protocol major versions differ: 2 vs. 9
+2025-07-06T18:42:59.626765+00:00 ubuntu sshd[6851]: banner exchange: Connection from 192.168.1.144 port 58828: could not read protocol version
+2025-07-06T18:43:00.655828+00:00 ubuntu sshd[6852]: error: Protocol major versions differ: 2 vs. 1
+2025-07-06T18:43:00.656394+00:00 ubuntu sshd[6852]: banner exchange: Connection from 192.168.1.144 port 58833: could not read protocol version
+2025-07-06T18:43:01.683530+00:00 ubuntu sshd[6853]: error: Protocol major versions differ: 2 vs. 1
+2025-07-06T18:43:01.683870+00:00 ubuntu sshd[6853]: banner exchange: Connection from 192.168.1.144 port 58834: could not read protocol version
+2025-07-06T18:43:02.714529+00:00 ubuntu sshd[6854]: Connection reset by 192.168.1.144 port 58835 [preauth]
+2025-07-06T18:43:03.741869+00:00 ubuntu sshd[6856]: Connection reset by 192.168.1.144 port 58836 [preauth]
+2025-07-06T18:43:04.005503+00:00 ubuntu sshd[6858]: Unable to negotiate with 192.168.1.144 port 58837: no matching key exchange method found. Their offer: ${jndi:ldap://log4shell-ssh-pqW0Dm5Zb9jk1lDargdr${lower:ten}.w.nessus.org/nessus} [preauth]
+2025-07-06T18:43:04.117059+00:00 ubuntu sshd[6860]: Disconnecting 192.168.1.144 port 58838: bad service request ${jndi:ldap://log4shell-ssh-pqW0Dm5Zb9jk1lDargdr${lower:ten}.w.nessus.org/nessus [preauth]
+2025-07-06T18:43:04.240461+00:00 ubuntu sshd[6862]: Invalid user nessus from 192.168.1.144 port 58839
+2025-07-06T18:43:04.246027+00:00 ubuntu sshd[6862]: fatal: userauth_finish: send failure packet: Connection reset by peer [preauth]
+2025-07-06T18:43:04.351575+00:00 ubuntu sshd[6864]: Invalid user nessus from 192.168.1.144 port 58840
+2025-07-06T18:43:04.359913+00:00 ubuntu sshd[6864]: fatal: userauth_finish: send failure packet: Connection reset by peer [preauth]
+2025-07-06T18:43:04.463390+00:00 ubuntu sshd[6866]: Invalid user nessus from 192.168.1.144 port 58841
+2025-07-06T18:43:04.471260+00:00 ubuntu sshd[6866]: fatal: userauth_finish: send failure packet: Connection reset by peer [preauth]
+2025-07-06T18:43:04.575006+00:00 ubuntu sshd[6868]: Invalid user ${jndi from 192.168.1.144 port 58842
+2025-07-06T18:43:04.577520+00:00 ubuntu sshd[6868]: pam_unix(sshd:auth): check pass; user unknown
+2025-07-06T18:43:04.577586+00:00 ubuntu sshd[6868]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.144 
+2025-07-06T18:43:07.066729+00:00 ubuntu sshd[6868]: Failed password for invalid user ${jndi from 192.168.1.144 port 58842 ssh2
+2025-07-06T18:43:09.188630+00:00 ubuntu sshd[6868]: Connection reset by invalid user ${jndi 192.168.1.144 port 58842 [preauth]
+2025-07-06T18:43:32.645295+00:00 ubuntu sshd[6871]: error: kex_exchange_identification: read: Connection reset by peer
+2025-07-06T18:43:32.646823+00:00 ubuntu sshd[6871]: Connection reset by 192.168.1.144 port 58867
+2025-07-06T18:44:14.187397+00:00 ubuntu sshd[6875]: Connection reset by 192.168.1.144 port 58948 [preauth]
+2025-07-06T18:44:17.952078+00:00 ubuntu sshd[6877]: dispatch_protocol_error: type 52 seq 4 [preauth]
+2025-07-06T18:44:17.952594+00:00 ubuntu sshd[6877]: dispatch_protocol_error: type 90 seq 5 [preauth]
+2025-07-06T18:44:17.952636+00:00 ubuntu sshd[6877]: Connection reset by 192.168.1.144 port 59270 [preauth]
+2025-07-06T18:45:01.317863+00:00 ubuntu CRON[6880]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-06T18:45:01.323897+00:00 ubuntu CRON[6880]: pam_unix(cron:session): session closed for user root
+2025-07-06T18:56:20.584913+00:00 ubuntu CRON[6899]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-06T18:56:20.588536+00:00 ubuntu CRON[6899]: pam_unix(cron:session): session closed for user root
+2025-07-06T19:05:01.491037+00:00 ubuntu CRON[6907]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-06T19:05:01.499307+00:00 ubuntu CRON[6907]: pam_unix(cron:session): session closed for user root
+2025-07-06T19:15:01.528783+00:00 ubuntu CRON[6916]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-06T19:15:01.532718+00:00 ubuntu CRON[6916]: pam_unix(cron:session): session closed for user root
+2025-07-06T19:17:01.544762+00:00 ubuntu CRON[6920]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-06T19:17:01.552584+00:00 ubuntu CRON[6920]: pam_unix(cron:session): session closed for user root
+2025-07-06T19:25:01.573976+00:00 ubuntu CRON[6957]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-06T19:25:01.578763+00:00 ubuntu CRON[6957]: pam_unix(cron:session): session closed for user root
+2025-07-06T19:30:01.605016+00:00 ubuntu CRON[6962]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-06T19:30:01.612238+00:00 ubuntu CRON[6962]: pam_unix(cron:session): session closed for user root
+2025-07-06T19:35:01.629126+00:00 ubuntu CRON[6971]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-06T19:35:01.634717+00:00 ubuntu CRON[6971]: pam_unix(cron:session): session closed for user root
+2025-07-06T19:45:01.662104+00:00 ubuntu CRON[6980]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-06T19:45:01.667002+00:00 ubuntu CRON[6980]: pam_unix(cron:session): session closed for user root
+2025-07-06T19:55:01.689741+00:00 ubuntu CRON[7005]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-06T19:55:01.696354+00:00 ubuntu CRON[7005]: pam_unix(cron:session): session closed for user root
+2025-07-06T20:05:01.723538+00:00 ubuntu CRON[7014]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-06T20:05:01.729401+00:00 ubuntu CRON[7014]: pam_unix(cron:session): session closed for user root
+2025-07-06T20:41:08.032123+00:00 ubuntu CRON[7038]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-06T20:41:08.035238+00:00 ubuntu CRON[7038]: pam_unix(cron:session): session closed for user root
+2025-07-06T21:49:07.281618+00:00 ubuntu CRON[7056]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-06T21:49:07.284260+00:00 ubuntu CRON[7056]: pam_unix(cron:session): session closed for user root
+2025-07-06T21:55:01.800754+00:00 ubuntu CRON[7063]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-06T21:55:01.808896+00:00 ubuntu CRON[7063]: pam_unix(cron:session): session closed for user root
+2025-07-06T22:05:01.845581+00:00 ubuntu CRON[7072]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-06T22:05:01.850271+00:00 ubuntu CRON[7072]: pam_unix(cron:session): session closed for user root
+2025-07-06T22:15:01.880975+00:00 ubuntu CRON[7081]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-06T22:15:01.885918+00:00 ubuntu CRON[7081]: pam_unix(cron:session): session closed for user root
+2025-07-06T22:17:01.895737+00:00 ubuntu CRON[7095]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-06T22:17:01.903327+00:00 ubuntu CRON[7095]: pam_unix(cron:session): session closed for user root
+2025-07-06T22:25:01.934519+00:00 ubuntu CRON[7104]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-06T22:25:01.944919+00:00 ubuntu CRON[7104]: pam_unix(cron:session): session closed for user root
+2025-07-06T22:30:01.963032+00:00 ubuntu CRON[7107]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-06T22:30:01.973485+00:00 ubuntu CRON[7107]: pam_unix(cron:session): session closed for user root
+2025-07-06T22:35:01.986734+00:00 ubuntu CRON[7133]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-06T22:35:01.991758+00:00 ubuntu CRON[7133]: pam_unix(cron:session): session closed for user root
+2025-07-06T22:45:01.014673+00:00 ubuntu CRON[7149]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-06T22:45:01.018820+00:00 ubuntu CRON[7149]: pam_unix(cron:session): session closed for user root
+2025-07-06T22:55:01.051999+00:00 ubuntu CRON[7162]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-06T22:55:01.056374+00:00 ubuntu CRON[7162]: pam_unix(cron:session): session closed for user root
+2025-07-06T23:05:01.082705+00:00 ubuntu CRON[7185]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-06T23:05:01.086598+00:00 ubuntu CRON[7185]: pam_unix(cron:session): session closed for user root
+2025-07-06T23:15:01.106585+00:00 ubuntu CRON[7198]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-06T23:15:01.110613+00:00 ubuntu CRON[7198]: pam_unix(cron:session): session closed for user root
+2025-07-06T23:17:01.125331+00:00 ubuntu CRON[7203]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-06T23:17:01.133504+00:00 ubuntu CRON[7203]: pam_unix(cron:session): session closed for user root
+2025-07-06T23:25:01.152865+00:00 ubuntu CRON[7216]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-06T23:25:01.162117+00:00 ubuntu CRON[7216]: pam_unix(cron:session): session closed for user root
+2025-07-06T23:30:01.178496+00:00 ubuntu CRON[7222]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-06T23:30:01.187457+00:00 ubuntu CRON[7222]: pam_unix(cron:session): session closed for user root
+2025-07-06T23:35:01.197797+00:00 ubuntu CRON[7234]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-06T23:35:01.209380+00:00 ubuntu CRON[7234]: pam_unix(cron:session): session closed for user root
+2025-07-06T23:45:01.228993+00:00 ubuntu CRON[7248]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-06T23:45:01.233315+00:00 ubuntu CRON[7248]: pam_unix(cron:session): session closed for user root
+2025-07-06T23:55:01.264599+00:00 ubuntu CRON[7261]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-06T23:55:01.269650+00:00 ubuntu CRON[7261]: pam_unix(cron:session): session closed for user root
+2025-07-06T23:59:01.291023+00:00 ubuntu CRON[7283]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-06T23:59:01.295597+00:00 ubuntu CRON[7283]: pam_unix(cron:session): session closed for user root
+2025-07-07T00:05:01.314567+00:00 ubuntu CRON[7448]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T00:05:01.323262+00:00 ubuntu CRON[7448]: pam_unix(cron:session): session closed for user root
+2025-07-07T00:15:01.349424+00:00 ubuntu CRON[7471]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T00:15:01.353411+00:00 ubuntu CRON[7471]: pam_unix(cron:session): session closed for user root
+2025-07-07T00:17:01.366216+00:00 ubuntu CRON[7477]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T00:17:01.373947+00:00 ubuntu CRON[7477]: pam_unix(cron:session): session closed for user root
+2025-07-07T00:25:01.388442+00:00 ubuntu CRON[7487]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T00:25:01.395442+00:00 ubuntu CRON[7487]: pam_unix(cron:session): session closed for user root
+2025-07-07T00:35:01.418293+00:00 ubuntu CRON[7500]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T00:35:01.421996+00:00 ubuntu CRON[7500]: pam_unix(cron:session): session closed for user root
+2025-07-07T00:45:01.442561+00:00 ubuntu CRON[7513]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T00:45:01.446890+00:00 ubuntu CRON[7513]: pam_unix(cron:session): session closed for user root
+2025-07-07T00:55:01.480048+00:00 ubuntu CRON[7536]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T00:55:01.488855+00:00 ubuntu CRON[7536]: pam_unix(cron:session): session closed for user root
+2025-07-07T01:05:01.519473+00:00 ubuntu CRON[7550]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T01:05:01.523660+00:00 ubuntu CRON[7550]: pam_unix(cron:session): session closed for user root
+2025-07-07T01:15:01.556564+00:00 ubuntu CRON[7562]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T01:15:01.560616+00:00 ubuntu CRON[7562]: pam_unix(cron:session): session closed for user root
+2025-07-07T01:17:01.569778+00:00 ubuntu CRON[7569]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T01:17:01.577489+00:00 ubuntu CRON[7569]: pam_unix(cron:session): session closed for user root
+2025-07-07T01:25:01.609458+00:00 ubuntu CRON[7579]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T01:25:01.617508+00:00 ubuntu CRON[7579]: pam_unix(cron:session): session closed for user root
+2025-07-07T01:35:01.648549+00:00 ubuntu CRON[7592]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T01:35:01.653173+00:00 ubuntu CRON[7592]: pam_unix(cron:session): session closed for user root
+2025-07-07T01:45:01.687390+00:00 ubuntu CRON[7609]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T01:45:01.694696+00:00 ubuntu CRON[7609]: pam_unix(cron:session): session closed for user root
+2025-07-07T01:55:01.718921+00:00 ubuntu CRON[7632]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T01:55:01.723529+00:00 ubuntu CRON[7632]: pam_unix(cron:session): session closed for user root
+2025-07-07T02:05:01.751792+00:00 ubuntu CRON[7645]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T02:05:01.756702+00:00 ubuntu CRON[7645]: pam_unix(cron:session): session closed for user root
+2025-07-07T02:15:01.792211+00:00 ubuntu CRON[7658]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T02:15:01.796934+00:00 ubuntu CRON[7658]: pam_unix(cron:session): session closed for user root
+2025-07-07T02:17:01.806504+00:00 ubuntu CRON[7663]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T02:17:01.816562+00:00 ubuntu CRON[7663]: pam_unix(cron:session): session closed for user root
+2025-07-07T02:25:01.844311+00:00 ubuntu CRON[7674]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T02:25:01.851805+00:00 ubuntu CRON[7674]: pam_unix(cron:session): session closed for user root
+2025-07-07T02:35:01.880572+00:00 ubuntu CRON[7686]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T02:35:01.884968+00:00 ubuntu CRON[7686]: pam_unix(cron:session): session closed for user root
+2025-07-07T02:45:01.911836+00:00 ubuntu CRON[7700]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T02:45:01.920747+00:00 ubuntu CRON[7700]: pam_unix(cron:session): session closed for user root
+2025-07-07T02:55:01.942207+00:00 ubuntu CRON[7713]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T02:55:01.945759+00:00 ubuntu CRON[7713]: pam_unix(cron:session): session closed for user root
+2025-07-07T03:05:01.984896+00:00 ubuntu CRON[7737]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T03:05:01.991200+00:00 ubuntu CRON[7737]: pam_unix(cron:session): session closed for user root
+2025-07-07T03:10:01.011350+00:00 ubuntu CRON[7742]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T03:10:01.013760+00:00 ubuntu CRON[7742]: pam_unix(cron:session): session closed for user root
+2025-07-07T03:15:01.029451+00:00 ubuntu CRON[7751]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T03:15:01.034975+00:00 ubuntu CRON[7751]: pam_unix(cron:session): session closed for user root
+2025-07-07T03:17:01.043670+00:00 ubuntu CRON[7755]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T03:17:01.051355+00:00 ubuntu CRON[7755]: pam_unix(cron:session): session closed for user root
+2025-07-07T03:25:01.069965+00:00 ubuntu CRON[7776]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T03:25:01.078169+00:00 ubuntu CRON[7776]: pam_unix(cron:session): session closed for user root
+2025-07-07T03:35:01.104998+00:00 ubuntu CRON[7789]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T03:35:01.109844+00:00 ubuntu CRON[7789]: pam_unix(cron:session): session closed for user root
+2025-07-07T03:45:01.142503+00:00 ubuntu CRON[7802]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T03:45:01.146805+00:00 ubuntu CRON[7802]: pam_unix(cron:session): session closed for user root
+2025-07-07T03:55:01.180719+00:00 ubuntu CRON[7815]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T03:55:01.185871+00:00 ubuntu CRON[7815]: pam_unix(cron:session): session closed for user root
+2025-07-07T04:05:01.210665+00:00 ubuntu CRON[7827]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T04:05:01.214798+00:00 ubuntu CRON[7827]: pam_unix(cron:session): session closed for user root
+2025-07-07T04:15:01.245683+00:00 ubuntu CRON[7840]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T04:15:01.252878+00:00 ubuntu CRON[7840]: pam_unix(cron:session): session closed for user root
+2025-07-07T04:17:01.266022+00:00 ubuntu CRON[7844]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T04:17:01.274037+00:00 ubuntu CRON[7844]: pam_unix(cron:session): session closed for user root
+2025-07-07T04:25:01.301842+00:00 ubuntu CRON[7857]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T04:25:01.305975+00:00 ubuntu CRON[7857]: pam_unix(cron:session): session closed for user root
+2025-07-07T04:35:01.341034+00:00 ubuntu CRON[7875]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T04:35:01.345345+00:00 ubuntu CRON[7875]: pam_unix(cron:session): session closed for user root
+2025-07-07T04:45:01.373414+00:00 ubuntu CRON[7890]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T04:45:01.380794+00:00 ubuntu CRON[7890]: pam_unix(cron:session): session closed for user root
+2025-07-07T04:55:01.423635+00:00 ubuntu CRON[7913]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T04:55:01.429682+00:00 ubuntu CRON[7913]: pam_unix(cron:session): session closed for user root
+2025-07-07T05:05:01.455657+00:00 ubuntu CRON[7933]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T05:05:01.462772+00:00 ubuntu CRON[7933]: pam_unix(cron:session): session closed for user root
+2025-07-07T05:15:01.496210+00:00 ubuntu CRON[7946]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T05:15:01.500457+00:00 ubuntu CRON[7946]: pam_unix(cron:session): session closed for user root
+2025-07-07T05:17:01.514645+00:00 ubuntu CRON[7953]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T05:17:01.521583+00:00 ubuntu CRON[7953]: pam_unix(cron:session): session closed for user root
+2025-07-07T05:25:01.545327+00:00 ubuntu CRON[7963]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T05:25:01.552445+00:00 ubuntu CRON[7963]: pam_unix(cron:session): session closed for user root
+2025-07-07T05:35:01.571127+00:00 ubuntu CRON[7976]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T05:35:01.574707+00:00 ubuntu CRON[7976]: pam_unix(cron:session): session closed for user root
+2025-07-07T05:45:01.596637+00:00 ubuntu CRON[7989]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T05:45:01.602045+00:00 ubuntu CRON[7989]: pam_unix(cron:session): session closed for user root
+2025-07-07T05:55:01.643449+00:00 ubuntu CRON[8002]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T05:55:01.647667+00:00 ubuntu CRON[8002]: pam_unix(cron:session): session closed for user root
+2025-07-07T06:05:01.688399+00:00 ubuntu CRON[8035]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T06:05:01.693543+00:00 ubuntu CRON[8035]: pam_unix(cron:session): session closed for user root
+2025-07-07T06:15:01.747963+00:00 ubuntu CRON[8063]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T06:15:01.752963+00:00 ubuntu CRON[8063]: pam_unix(cron:session): session closed for user root
+2025-07-07T06:17:01.772385+00:00 ubuntu CRON[8068]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T06:17:01.779621+00:00 ubuntu CRON[8068]: pam_unix(cron:session): session closed for user root
+2025-07-07T06:25:01.814031+00:00 ubuntu CRON[8080]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T06:25:01.822220+00:00 ubuntu CRON[8079]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T06:25:01.822827+00:00 ubuntu CRON[8079]: pam_unix(cron:session): session closed for user root
+2025-07-07T06:25:01.822893+00:00 ubuntu CRON[8080]: pam_unix(cron:session): session closed for user root
+2025-07-07T06:35:01.876787+00:00 ubuntu CRON[8218]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T06:35:01.881295+00:00 ubuntu CRON[8218]: pam_unix(cron:session): session closed for user root
+2025-07-07T06:45:01.952896+00:00 ubuntu CRON[8230]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T06:45:01.957746+00:00 ubuntu CRON[8230]: pam_unix(cron:session): session closed for user root
+2025-07-07T06:55:01.031799+00:00 ubuntu CRON[8243]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T06:55:01.036057+00:00 ubuntu CRON[8243]: pam_unix(cron:session): session closed for user root
+2025-07-07T07:05:01.092828+00:00 ubuntu CRON[8256]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T07:05:01.096998+00:00 ubuntu CRON[8256]: pam_unix(cron:session): session closed for user root
+2025-07-07T07:15:01.151382+00:00 ubuntu CRON[8269]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T07:15:01.155592+00:00 ubuntu CRON[8269]: pam_unix(cron:session): session closed for user root
+2025-07-07T07:17:01.166646+00:00 ubuntu CRON[8273]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T07:17:01.171932+00:00 ubuntu CRON[8273]: pam_unix(cron:session): session closed for user root
+2025-07-07T07:25:01.215248+00:00 ubuntu CRON[8285]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T07:25:01.222533+00:00 ubuntu CRON[8285]: pam_unix(cron:session): session closed for user root
+2025-07-07T07:30:01.241822+00:00 ubuntu CRON[8301]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T07:30:01.252626+00:00 ubuntu CRON[8301]: pam_unix(cron:session): session closed for user root
+2025-07-07T07:35:01.280456+00:00 ubuntu CRON[8311]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T07:35:01.292196+00:00 ubuntu CRON[8311]: pam_unix(cron:session): session closed for user root
+2025-07-07T07:45:01.344413+00:00 ubuntu CRON[8341]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T07:45:01.348981+00:00 ubuntu CRON[8341]: pam_unix(cron:session): session closed for user root
+2025-07-07T07:55:01.412966+00:00 ubuntu CRON[8354]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T07:55:01.417562+00:00 ubuntu CRON[8354]: pam_unix(cron:session): session closed for user root
+2025-07-07T08:05:01.486851+00:00 ubuntu CRON[8366]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T08:05:01.492973+00:00 ubuntu CRON[8366]: pam_unix(cron:session): session closed for user root
+2025-07-07T08:15:01.516258+00:00 ubuntu CRON[8379]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T08:15:01.520831+00:00 ubuntu CRON[8379]: pam_unix(cron:session): session closed for user root
+2025-07-07T08:17:01.531898+00:00 ubuntu CRON[8385]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T08:17:01.538400+00:00 ubuntu CRON[8385]: pam_unix(cron:session): session closed for user root
+2025-07-07T08:25:01.559310+00:00 ubuntu CRON[8396]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T08:25:01.566250+00:00 ubuntu CRON[8396]: pam_unix(cron:session): session closed for user root
+2025-07-07T08:30:01.583865+00:00 ubuntu CRON[8402]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T08:30:01.593902+00:00 ubuntu CRON[8402]: pam_unix(cron:session): session closed for user root
+2025-07-07T08:35:01.602997+00:00 ubuntu CRON[8413]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T08:35:01.613666+00:00 ubuntu CRON[8413]: pam_unix(cron:session): session closed for user root
+2025-07-07T08:45:01.625514+00:00 ubuntu CRON[8451]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T08:45:01.632235+00:00 ubuntu CRON[8451]: pam_unix(cron:session): session closed for user root
+2025-07-07T08:55:01.656673+00:00 ubuntu CRON[8475]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T08:55:01.660938+00:00 ubuntu CRON[8475]: pam_unix(cron:session): session closed for user root
+2025-07-07T09:05:01.684588+00:00 ubuntu CRON[8489]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T09:05:01.688795+00:00 ubuntu CRON[8489]: pam_unix(cron:session): session closed for user root
+2025-07-07T09:15:01.713313+00:00 ubuntu CRON[8502]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T09:15:01.716840+00:00 ubuntu CRON[8502]: pam_unix(cron:session): session closed for user root
+2025-07-07T09:17:01.730739+00:00 ubuntu CRON[8509]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T09:17:01.738625+00:00 ubuntu CRON[8509]: pam_unix(cron:session): session closed for user root
+2025-07-07T09:25:01.758623+00:00 ubuntu CRON[8521]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T09:25:01.765663+00:00 ubuntu CRON[8521]: pam_unix(cron:session): session closed for user root
+2025-07-07T09:30:01.777839+00:00 ubuntu CRON[8526]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T09:30:01.787302+00:00 ubuntu CRON[8526]: pam_unix(cron:session): session closed for user root
+2025-07-07T09:35:01.791207+00:00 ubuntu CRON[8538]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T09:35:01.802426+00:00 ubuntu CRON[8538]: pam_unix(cron:session): session closed for user root
+2025-07-07T09:45:01.831252+00:00 ubuntu CRON[8553]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T09:45:01.835835+00:00 ubuntu CRON[8553]: pam_unix(cron:session): session closed for user root
+2025-07-07T09:55:01.863655+00:00 ubuntu CRON[8576]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T09:55:01.868003+00:00 ubuntu CRON[8576]: pam_unix(cron:session): session closed for user root
+2025-07-07T10:05:01.887208+00:00 ubuntu CRON[8589]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T10:05:01.890784+00:00 ubuntu CRON[8589]: pam_unix(cron:session): session closed for user root
+2025-07-07T10:15:01.915360+00:00 ubuntu CRON[8612]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T10:15:01.922246+00:00 ubuntu CRON[8612]: pam_unix(cron:session): session closed for user root
+2025-07-07T10:17:01.931471+00:00 ubuntu CRON[8617]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T10:17:01.936341+00:00 ubuntu CRON[8617]: pam_unix(cron:session): session closed for user root
+2025-07-07T10:25:01.963576+00:00 ubuntu CRON[8627]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T10:25:01.967807+00:00 ubuntu CRON[8627]: pam_unix(cron:session): session closed for user root
+2025-07-07T10:30:01.984292+00:00 ubuntu CRON[8633]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T10:30:01.992362+00:00 ubuntu CRON[8633]: pam_unix(cron:session): session closed for user root
+2025-07-07T10:35:01.011579+00:00 ubuntu CRON[8643]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T10:35:01.015569+00:00 ubuntu CRON[8643]: pam_unix(cron:session): session closed for user root
+2025-07-07T10:45:01.031886+00:00 ubuntu CRON[8657]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T10:45:01.035902+00:00 ubuntu CRON[8657]: pam_unix(cron:session): session closed for user root
+2025-07-07T10:55:01.052476+00:00 ubuntu CRON[8669]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T10:55:01.056122+00:00 ubuntu CRON[8669]: pam_unix(cron:session): session closed for user root
+2025-07-07T11:05:01.075018+00:00 ubuntu CRON[8682]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T11:05:01.079020+00:00 ubuntu CRON[8682]: pam_unix(cron:session): session closed for user root
+2025-07-07T11:15:01.094814+00:00 ubuntu CRON[8694]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T11:15:01.097702+00:00 ubuntu CRON[8694]: pam_unix(cron:session): session closed for user root
+2025-07-07T11:17:01.109448+00:00 ubuntu CRON[8699]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T11:17:01.114852+00:00 ubuntu CRON[8699]: pam_unix(cron:session): session closed for user root
+2025-07-07T11:25:01.148519+00:00 ubuntu CRON[8712]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T11:25:01.155652+00:00 ubuntu CRON[8712]: pam_unix(cron:session): session closed for user root
+2025-07-07T11:30:01.170004+00:00 ubuntu CRON[8718]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T11:30:01.175019+00:00 ubuntu CRON[8718]: pam_unix(cron:session): session closed for user root
+2025-07-07T11:35:01.200444+00:00 ubuntu CRON[8744]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T11:35:01.211406+00:00 ubuntu CRON[8744]: pam_unix(cron:session): session closed for user root
+2025-07-07T11:45:01.232440+00:00 ubuntu CRON[8765]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T11:45:01.236782+00:00 ubuntu CRON[8765]: pam_unix(cron:session): session closed for user root
+2025-07-07T11:55:01.264746+00:00 ubuntu CRON[8780]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T11:55:01.272304+00:00 ubuntu CRON[8780]: pam_unix(cron:session): session closed for user root
+2025-07-07T12:05:01.296455+00:00 ubuntu CRON[8976]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T12:05:01.301054+00:00 ubuntu CRON[8976]: pam_unix(cron:session): session closed for user root
+2025-07-07T12:10:47.436881+00:00 ubuntu pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-07T12:10:47.439851+00:00 ubuntu pkexec[8992]: ubuntu: Executing command [USER=root] [TTY=unknown] [CWD=/home/ubuntu] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-07-07T12:15:01.325945+00:00 ubuntu CRON[9004]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T12:15:01.329910+00:00 ubuntu CRON[9004]: pam_unix(cron:session): session closed for user root
+2025-07-07T12:17:01.340641+00:00 ubuntu CRON[9010]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T12:17:01.348190+00:00 ubuntu CRON[9010]: pam_unix(cron:session): session closed for user root
+2025-07-07T12:25:01.364597+00:00 ubuntu CRON[9021]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T12:25:01.373395+00:00 ubuntu CRON[9021]: pam_unix(cron:session): session closed for user root
+2025-07-07T12:30:01.383520+00:00 ubuntu CRON[9027]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T12:30:01.393660+00:00 ubuntu CRON[9027]: pam_unix(cron:session): session closed for user root
+2025-07-07T12:35:01.410475+00:00 ubuntu CRON[9039]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T12:35:01.415984+00:00 ubuntu CRON[9039]: pam_unix(cron:session): session closed for user root
+2025-07-07T12:45:01.445754+00:00 ubuntu CRON[9054]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T12:45:01.450309+00:00 ubuntu CRON[9054]: pam_unix(cron:session): session closed for user root
+2025-07-07T12:55:01.479625+00:00 ubuntu CRON[9068]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T12:55:01.482373+00:00 ubuntu CRON[9068]: pam_unix(cron:session): session closed for user root
+2025-07-07T13:05:01.510422+00:00 ubuntu CRON[9106]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T13:05:01.517851+00:00 ubuntu CRON[9106]: pam_unix(cron:session): session closed for user root
+2025-07-07T13:15:01.541276+00:00 ubuntu CRON[9119]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T13:15:01.545623+00:00 ubuntu CRON[9119]: pam_unix(cron:session): session closed for user root
+2025-07-07T13:17:01.555685+00:00 ubuntu CRON[9125]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T13:17:01.564227+00:00 ubuntu CRON[9125]: pam_unix(cron:session): session closed for user root
+2025-07-07T13:25:01.588377+00:00 ubuntu CRON[9136]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T13:25:01.593924+00:00 ubuntu CRON[9136]: pam_unix(cron:session): session closed for user root
+2025-07-07T13:30:01.612791+00:00 ubuntu CRON[9141]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T13:30:01.624270+00:00 ubuntu CRON[9141]: pam_unix(cron:session): session closed for user root
+2025-07-07T13:35:01.644054+00:00 ubuntu CRON[9150]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T13:35:01.649737+00:00 ubuntu CRON[9150]: pam_unix(cron:session): session closed for user root
+2025-07-07T13:45:01.696477+00:00 ubuntu CRON[9167]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T13:45:01.701642+00:00 ubuntu CRON[9167]: pam_unix(cron:session): session closed for user root
+2025-07-07T13:55:01.742247+00:00 ubuntu CRON[9180]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T13:55:01.744829+00:00 ubuntu CRON[9180]: pam_unix(cron:session): session closed for user root
+2025-07-07T14:05:01.769816+00:00 ubuntu CRON[9193]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T14:05:01.778054+00:00 ubuntu CRON[9193]: pam_unix(cron:session): session closed for user root
+2025-07-07T14:15:01.805180+00:00 ubuntu CRON[9206]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T14:15:01.809469+00:00 ubuntu CRON[9206]: pam_unix(cron:session): session closed for user root
+2025-07-07T14:17:01.818563+00:00 ubuntu CRON[9212]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T14:17:01.826475+00:00 ubuntu CRON[9212]: pam_unix(cron:session): session closed for user root
+2025-07-07T14:25:01.849663+00:00 ubuntu CRON[9223]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T14:25:01.856448+00:00 ubuntu CRON[9223]: pam_unix(cron:session): session closed for user root
+2025-07-07T14:30:01.873763+00:00 ubuntu CRON[9228]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T14:30:01.884525+00:00 ubuntu CRON[9228]: pam_unix(cron:session): session closed for user root
+2025-07-07T14:35:01.899509+00:00 ubuntu CRON[9241]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T14:35:01.909790+00:00 ubuntu CRON[9241]: pam_unix(cron:session): session closed for user root
+2025-07-07T14:45:01.932834+00:00 ubuntu CRON[9254]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T14:45:01.937793+00:00 ubuntu CRON[9254]: pam_unix(cron:session): session closed for user root
+2025-07-07T14:55:01.966435+00:00 ubuntu CRON[9266]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T14:55:01.970045+00:00 ubuntu CRON[9266]: pam_unix(cron:session): session closed for user root
+2025-07-07T15:05:01.999703+00:00 ubuntu CRON[9291]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T15:05:02.008752+00:00 ubuntu CRON[9291]: pam_unix(cron:session): session closed for user root
+2025-07-07T15:15:01.047374+00:00 ubuntu CRON[9313]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T15:15:01.051584+00:00 ubuntu CRON[9313]: pam_unix(cron:session): session closed for user root
+2025-07-07T15:17:01.063355+00:00 ubuntu CRON[9317]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T15:17:01.070514+00:00 ubuntu CRON[9317]: pam_unix(cron:session): session closed for user root
+2025-07-07T15:25:01.127355+00:00 ubuntu CRON[9331]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T15:25:01.134576+00:00 ubuntu CRON[9331]: pam_unix(cron:session): session closed for user root
+2025-07-07T15:30:01.156042+00:00 ubuntu CRON[9336]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T15:30:01.159311+00:00 ubuntu CRON[9336]: pam_unix(cron:session): session closed for user root
+2025-07-07T15:35:01.180456+00:00 ubuntu CRON[9348]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-07T15:35:01.184655+00:00 ubuntu CRON[9348]: pam_unix(cron:session): session closed for user root
+2025-07-09T15:46:30.396175+00:00 ubuntu systemd-logind[917]: New seat seat0.
+2025-07-09T15:46:30.396177+00:00 ubuntu systemd-logind[917]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-07-09T15:46:30.396180+00:00 ubuntu systemd-logind[917]: Watching system buttons on /dev/input/event3 (QEMU QEMU USB Keyboard)
+2025-07-09T15:46:30.452830+00:00 ubuntu polkitd[884]: Loading rules from directory /etc/polkit-1/rules.d
+2025-07-09T15:46:30.455240+00:00 ubuntu polkitd[884]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-07-09T15:46:30.477592+00:00 ubuntu polkitd[884]: Finished loading, compiling and executing 16 rules
+2025-07-09T15:46:30.479537+00:00 ubuntu polkitd[884]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-07-09T15:48:30.062419+00:00 ubuntu sshd[1269]: Server listening on :: port 22.
+2025-07-09T15:48:40.016296+00:00 ubuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=123) by (uid=0)
+2025-07-09T15:48:40.046514+00:00 ubuntu systemd-logind[917]: New session c1 of user gdm.
+2025-07-09T15:48:40.059481+00:00 ubuntu (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=123) by gdm(uid=0)
+2025-07-09T15:48:41.511778+00:00 ubuntu polkitd[884]: Registered Authentication Agent for unix-session:c1 (system bus name :1.41 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-07-09T15:48:49.917038+00:00 ubuntu gdm-password]: gkr-pam: unable to locate daemon control file
+2025-07-09T15:48:49.917231+00:00 ubuntu gdm-password]: gkr-pam: stashed password to try later in open session
+2025-07-09T15:48:49.928640+00:00 ubuntu gdm-password]: pam_unix(gdm-password:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2025-07-09T15:48:49.949739+00:00 ubuntu systemd-logind[917]: New session 2 of user ubuntu.
+2025-07-09T15:48:49.960735+00:00 ubuntu (systemd): pam_unix(systemd-user:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2025-07-09T15:48:50.080530+00:00 ubuntu gdm-password]: gkr-pam: unlocked login keyring
+2025-07-09T15:48:50.285031+00:00 ubuntu gnome-keyring-daemon[2037]: The PKCS#11 component was already initialized
+2025-07-09T15:48:50.285298+00:00 ubuntu gnome-keyring-daemon[2189]: discover_other_daemon: 1
+2025-07-09T15:48:50.286295+00:00 ubuntu gnome-keyring-daemon[2037]: The Secret Service was already initialized
+2025-07-09T15:48:50.286451+00:00 ubuntu gnome-keyring-daemon[2193]: discover_other_daemon: 1
+2025-07-09T15:48:50.300040+00:00 ubuntu gnome-keyring-daemon[2196]: discover_other_daemon: 1
+2025-07-09T15:48:51.063967+00:00 ubuntu polkitd[884]: Registered Authentication Agent for unix-session:2 (system bus name :1.82 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-07-09T15:48:51.395661+00:00 ubuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-07-09T15:48:51.400631+00:00 ubuntu systemd-logind[917]: Session c1 logged out. Waiting for processes to exit.
+2025-07-09T15:48:51.405876+00:00 ubuntu polkitd[884]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.41, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-07-09T15:48:51.409535+00:00 ubuntu systemd-logind[917]: Removed session c1.
+2025-07-09T15:49:01.504896+00:00 ubuntu (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2025-07-09T15:49:53.484361+00:00 ubuntu pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T15:49:53.485571+00:00 ubuntu pkexec[3175]: ubuntu: Executing command [USER=root] [TTY=unknown] [CWD=/home/ubuntu] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-07-09T15:50:04.610739+00:00 ubuntu sudo: pam_unix(sudo:auth): authentication failure; logname=ubuntu uid=1000 euid=0 tty=/dev/pts/0 ruser=ubuntu rhost=  user=ubuntu
+2025-07-09T15:50:11.823404+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+2025-07-09T15:50:11.824426+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T15:50:16.542362+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T15:50:38.164998+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+2025-07-09T15:50:38.165346+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T15:50:49.307867+00:00 ubuntu polkitd[5223]: Loading rules from directory /etc/polkit-1/rules.d
+2025-07-09T15:50:49.307931+00:00 ubuntu polkitd[5223]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-07-09T15:50:49.309512+00:00 ubuntu polkitd[5223]: Finished loading, compiling and executing 16 rules
+2025-07-09T15:50:49.309741+00:00 ubuntu polkitd[5223]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-07-09T15:50:49.310753+00:00 ubuntu polkitd[5223]: Registered Authentication Agent for unix-session:2 (system bus name :1.82 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-07-09T15:50:49.889609+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T15:51:26.378254+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt install ufw -y
+2025-07-09T15:51:26.378793+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T15:51:30.799920+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T15:51:53.844867+00:00 ubuntu dbus-daemon[875]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2025-07-09T15:51:56.487985+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt install fail2ban -y
+2025-07-09T15:51:56.489630+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T15:52:01.542271+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T15:52:44.092959+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt install vsftpd -y
+2025-07-09T15:52:44.093814+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T15:52:45.468392+00:00 ubuntu groupadd[7759]: group added to /etc/group: name=ftp, GID=125
+2025-07-09T15:52:45.471415+00:00 ubuntu groupadd[7759]: group added to /etc/gshadow: name=ftp
+2025-07-09T15:52:45.472297+00:00 ubuntu groupadd[7759]: new group: name=ftp, GID=125
+2025-07-09T15:52:45.487511+00:00 ubuntu useradd[7766]: new user: name=ftp, UID=125, GID=125, home=/srv/ftp, shell=/usr/sbin/nologin, from=none
+2025-07-09T15:52:45.508943+00:00 ubuntu chfn[7773]: changed user 'ftp' information
+2025-07-09T15:52:47.765581+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T15:55:01.045882+00:00 ubuntu CRON[8075]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-09T15:55:01.051701+00:00 ubuntu CRON[8075]: pam_unix(cron:session): session closed for user root
+2025-07-09T15:57:41.908971+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/ufw default deny incoming
+2025-07-09T15:57:41.912355+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T15:57:41.950565+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T15:58:06.183551+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/ufw default allow outgoing
+2025-07-09T15:58:06.184174+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T15:58:06.225166+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T15:59:07.133413+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/ufw allow ssh
+2025-07-09T15:59:07.134618+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T15:59:07.246040+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T16:00:03.349544+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/ufw allow ftp
+2025-07-09T16:00:03.349945+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T16:00:03.435250+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T16:00:25.684271+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/ufw enable
+2025-07-09T16:00:25.684844+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T16:00:26.039220+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T16:01:29.652317+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/ufw status verbose
+2025-07-09T16:01:29.653224+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T16:01:29.700155+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T16:05:01.076303+00:00 ubuntu CRON[8427]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-09T16:05:01.079433+00:00 ubuntu CRON[8427]: pam_unix(cron:session): session closed for user root
+2025-07-09T16:08:47.170551+00:00 ubuntu sshd[8433]: Connection closed by 192.168.1.195 port 58400
+2025-07-09T16:08:51.020587+00:00 ubuntu sshd[8442]: error: Protocol major versions differ: 2 vs. 1
+2025-07-09T16:08:51.020747+00:00 ubuntu sshd[8442]: banner exchange: Connection from 192.168.1.195 port 58406: could not read protocol version
+2025-07-09T16:08:51.020861+00:00 ubuntu sshd[8445]: error: Protocol major versions differ: 2 vs. 1
+2025-07-09T16:08:51.021037+00:00 ubuntu sshd[8445]: banner exchange: Connection from 192.168.1.195 port 58408: could not read protocol version
+2025-07-09T16:08:51.132355+00:00 ubuntu vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+2025-07-09T16:08:51.132505+00:00 ubuntu vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=anonymous rhost=::ffff:192.168.1.195 
+2025-07-09T16:08:51.132670+00:00 ubuntu vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+2025-07-09T16:08:51.132736+00:00 ubuntu vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=anonymous rhost=::ffff:192.168.1.195 
+2025-07-09T16:08:51.230648+00:00 ubuntu vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+2025-07-09T16:08:51.230721+00:00 ubuntu vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=anonymous rhost=::ffff:192.168.1.195 
+2025-07-09T16:08:51.333840+00:00 ubuntu sshd[8448]: Unable to negotiate with 192.168.1.195 port 58420: no matching host key type found. Their offer: ssh-dss [preauth]
+2025-07-09T16:08:51.594713+00:00 ubuntu sshd[8450]: Unable to negotiate with 192.168.1.195 port 58432: no matching host key type found. Their offer: ssh-rsa [preauth]
+2025-07-09T16:08:52.075222+00:00 ubuntu sshd[8452]: Connection closed by 192.168.1.195 port 58448 [preauth]
+2025-07-09T16:08:52.233489+00:00 ubuntu sshd[8454]: Unable to negotiate with 192.168.1.195 port 58454: no matching host key type found. Their offer: ecdsa-sha2-nistp384 [preauth]
+2025-07-09T16:08:52.500549+00:00 ubuntu sshd[8456]: Unable to negotiate with 192.168.1.195 port 58456: no matching host key type found. Their offer: ecdsa-sha2-nistp521 [preauth]
+2025-07-09T16:08:52.981734+00:00 ubuntu sshd[8458]: Connection closed by 192.168.1.195 port 58458 [preauth]
+2025-07-09T16:12:13.138044+00:00 ubuntu gdm-password]: gkr-pam: unlocked login keyring
+2025-07-09T16:14:10.643016+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt remove vsftpd -y
+2025-07-09T16:14:10.643821+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T16:14:11.300433+00:00 ubuntu userdel[8649]: delete user 'ftp'
+2025-07-09T16:14:11.300839+00:00 ubuntu userdel[8649]: removed group 'ftp' owned by 'ftp'
+2025-07-09T16:14:11.300876+00:00 ubuntu userdel[8649]: removed shadow group 'ftp' owned by 'ftp'
+2025-07-09T16:14:12.214419+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T16:14:45.763859+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/ufw delete allow ftp
+2025-07-09T16:14:45.764514+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T16:14:45.931906+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T16:15:01.105815+00:00 ubuntu CRON[8784]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-09T16:15:01.109027+00:00 ubuntu CRON[8784]: pam_unix(cron:session): session closed for user root
+2025-07-09T16:15:11.392443+00:00 ubuntu sshd[8787]: Connection closed by 192.168.1.195 port 40844
+2025-07-09T16:15:15.251350+00:00 ubuntu sshd[8788]: error: Protocol major versions differ: 2 vs. 1
+2025-07-09T16:15:15.251488+00:00 ubuntu sshd[8788]: banner exchange: Connection from 192.168.1.195 port 38010: could not read protocol version
+2025-07-09T16:15:15.251849+00:00 ubuntu sshd[8789]: error: Protocol major versions differ: 2 vs. 1
+2025-07-09T16:15:15.251883+00:00 ubuntu sshd[8789]: banner exchange: Connection from 192.168.1.195 port 38012: could not read protocol version
+2025-07-09T16:15:15.560724+00:00 ubuntu sshd[8790]: Unable to negotiate with 192.168.1.195 port 38028: no matching host key type found. Their offer: ssh-dss [preauth]
+2025-07-09T16:15:15.827068+00:00 ubuntu sshd[8792]: Unable to negotiate with 192.168.1.195 port 38042: no matching host key type found. Their offer: ssh-rsa [preauth]
+2025-07-09T16:15:16.309806+00:00 ubuntu sshd[8794]: Connection closed by 192.168.1.195 port 38052 [preauth]
+2025-07-09T16:15:16.467889+00:00 ubuntu sshd[8796]: Unable to negotiate with 192.168.1.195 port 38066: no matching host key type found. Their offer: ecdsa-sha2-nistp384 [preauth]
+2025-07-09T16:15:16.731368+00:00 ubuntu sshd[8798]: Unable to negotiate with 192.168.1.195 port 38074: no matching host key type found. Their offer: ecdsa-sha2-nistp521 [preauth]
+2025-07-09T16:15:17.223617+00:00 ubuntu sshd[8800]: Connection closed by 192.168.1.195 port 38082 [preauth]
+2025-07-09T16:17:01.120805+00:00 ubuntu CRON[8812]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-09T16:17:01.125819+00:00 ubuntu CRON[8812]: pam_unix(cron:session): session closed for user root
+2025-07-09T16:17:54.962824+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/cp /etc/fail2ban/jail.confi /etc/fail2ban/jail.local
+2025-07-09T16:17:54.969281+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T16:17:54.969352+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T16:18:23.738427+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/cp /etc/fail2ban/jail.confi
+2025-07-09T16:18:23.740400+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T16:18:23.743191+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T16:18:43.319745+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/cp /etc/fail2ban/jail.confi/etc/fail2ban/jail.local
+2025-07-09T16:18:43.321452+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T16:18:43.323576+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T16:21:03.983895+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/cp /etc/fail2ban/jail.conf/ etc/fail2ban/jail.local
+2025-07-09T16:21:03.984483+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T16:21:03.986775+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T16:21:18.666964+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/cp /etc/fail2ban/jail.conf/
+2025-07-09T16:21:18.667370+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T16:21:18.670384+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T16:21:41.799135+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/cp /etc/fail2ban/jail.conf/etc/fail2ban/jail.local
+2025-07-09T16:21:41.800244+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T16:21:41.802917+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T16:25:01.150899+00:00 ubuntu CRON[8868]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-09T16:25:01.152475+00:00 ubuntu CRON[8868]: pam_unix(cron:session): session closed for user root
+2025-07-09T16:27:11.249818+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/nano etc/fail2ban/jail.local
+2025-07-09T16:27:11.254874+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T16:27:58.565247+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T16:29:23.287437+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/nano etc/fail2ban/jail.local
+2025-07-09T16:29:23.291450+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T16:29:44.158786+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T16:30:01.169349+00:00 ubuntu CRON[8898]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-09T16:30:01.171309+00:00 ubuntu CRON[8898]: pam_unix(cron:session): session closed for user root
+2025-07-09T16:30:09.850997+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/nano etc/fail2ban/jail.local
+2025-07-09T16:30:09.851194+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T16:35:01.185738+00:00 ubuntu CRON[8916]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-09T16:35:01.190119+00:00 ubuntu CRON[8916]: pam_unix(cron:session): session closed for user root
+2025-07-09T16:37:27.835660+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T16:37:59.929436+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+2025-07-09T16:37:59.929784+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T16:38:01.877760+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T16:38:35.079905+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+2025-07-09T16:38:35.080374+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T16:38:35.443607+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T16:39:01.607444+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt install fail2ban -y
+2025-07-09T16:39:01.609054+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T16:39:01.958501+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T16:40:17.910465+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/cp /etc/fail2ban/jail.conf/ etc/fail2ban/jail.local
+2025-07-09T16:40:17.916780+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T16:40:17.916859+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T16:45:01.212994+00:00 ubuntu CRON[9368]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-09T16:45:01.216678+00:00 ubuntu CRON[9368]: pam_unix(cron:session): session closed for user root
+2025-07-09T16:48:37.713828+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
+2025-07-09T16:48:37.717462+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T16:48:37.717514+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T16:50:19.595303+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/nano /etc/fail2ban/jail.local
+2025-07-09T16:50:19.596779+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T16:53:44.265933+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T16:54:20.447200+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl restart fail2ban
+2025-07-09T16:54:20.447666+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T16:54:20.781803+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T16:54:47.451800+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2025-07-09T16:54:47.453359+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T16:54:47.498789+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T16:55:01.246012+00:00 ubuntu CRON[9417]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-09T16:55:01.249340+00:00 ubuntu CRON[9417]: pam_unix(cron:session): session closed for user root
+2025-07-09T16:55:14.233449+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/nano /etc/fail2ban/jail.local
+2025-07-09T16:55:14.234561+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T16:56:00.772551+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T16:56:08.399754+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl restart fail2ban
+2025-07-09T16:56:08.400410+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T16:56:08.420864+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T16:56:11.707023+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/nano /etc/fail2ban/jail.local
+2025-07-09T16:56:11.707412+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T16:56:15.989929+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T16:56:21.889756+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2025-07-09T16:56:21.890825+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T16:56:21.934039+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T17:00:18.082992+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl restart fail2ban
+2025-07-09T17:00:18.087527+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T17:00:18.101824+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T17:00:36.332604+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/journalctl -xe
+2025-07-09T17:00:36.333030+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T17:03:06.737955+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T17:03:43.049881+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/journalctl -xeu fail2ban
+2025-07-09T17:03:43.050460+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T17:05:01.290538+00:00 ubuntu CRON[9465]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-09T17:05:01.296286+00:00 ubuntu CRON[9465]: pam_unix(cron:session): session closed for user root
+2025-07-09T17:06:12.736580+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T17:07:18.031243+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2025-07-09T17:07:18.033003+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T17:07:18.079231+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T17:14:32.529461+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl start fail2ban
+2025-07-09T17:14:32.533906+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T17:14:32.547386+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T17:15:01.329046+00:00 ubuntu CRON[9498]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-09T17:15:01.330957+00:00 ubuntu CRON[9498]: pam_unix(cron:session): session closed for user root
+2025-07-09T17:15:09.813875+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl status fail2ban
+2025-07-09T17:15:09.818360+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T17:17:01.341209+00:00 ubuntu CRON[9507]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-09T17:17:01.344238+00:00 ubuntu CRON[9507]: pam_unix(cron:session): session closed for user root
+2025-07-09T17:18:31.288653+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T17:18:39.883067+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/nano /etc/fail2ban/jail.local
+2025-07-09T17:18:39.884439+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T17:21:01.528594+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T17:21:24.832886+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl restart fail2ban
+2025-07-09T17:21:24.834198+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T17:21:24.850420+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T17:22:44.167552+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2025-07-09T17:22:44.168170+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T17:22:44.214943+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T17:23:02.652293+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl status fail2ban
+2025-07-09T17:23:02.652723+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T17:23:08.750037+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T17:23:21.824853+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/nano /etc/fail2ban/jail.local
+2025-07-09T17:23:21.827937+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T17:24:11.666700+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T17:24:18.792274+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl restart fail2ban
+2025-07-09T17:24:18.792775+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T17:24:18.807988+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T17:24:22.453020+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl status fail2ban
+2025-07-09T17:24:22.453560+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T17:25:01.360656+00:00 ubuntu CRON[9558]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-09T17:25:01.361904+00:00 ubuntu CRON[9558]: pam_unix(cron:session): session closed for user root
+2025-07-09T17:25:14.383730+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T17:25:18.240225+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/nano /etc/fail2ban/jail.local
+2025-07-09T17:25:18.240712+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T17:28:38.465053+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T17:28:46.857358+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl restart fail2ban
+2025-07-09T17:28:46.858598+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T17:28:47.612960+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T17:28:57.345687+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2025-07-09T17:28:57.346005+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T17:28:57.393522+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T17:29:10.556876+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl status fail2ban
+2025-07-09T17:29:10.557838+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T17:29:15.636663+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T17:29:22.197870+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/nano /etc/fail2ban/jail.local
+2025-07-09T17:29:22.199623+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T17:30:01.379330+00:00 ubuntu CRON[9593]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-09T17:30:01.380282+00:00 ubuntu CRON[9593]: pam_unix(cron:session): session closed for user root
+2025-07-09T17:35:01.387953+00:00 ubuntu CRON[9604]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-09T17:35:01.389346+00:00 ubuntu CRON[9604]: pam_unix(cron:session): session closed for user root
+2025-07-09T17:37:14.541172+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T17:37:20.329777+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl restart fail2ban
+2025-07-09T17:37:20.330717+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T17:37:20.354676+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T17:37:25.344346+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2025-07-09T17:37:25.344576+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T17:37:25.391373+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T17:37:33.884912+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/nano /etc/fail2ban/jail.local
+2025-07-09T17:37:33.888978+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T17:38:27.800819+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T17:38:33.540576+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl restart fail2ban
+2025-07-09T17:38:33.540842+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T17:38:33.561928+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T17:38:48.422540+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2025-07-09T17:38:48.422987+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T17:38:48.470302+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T17:45:01.428003+00:00 ubuntu CRON[9657]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-09T17:45:01.431315+00:00 ubuntu CRON[9657]: pam_unix(cron:session): session closed for user root
+2025-07-09T17:45:46.549040+00:00 ubuntu gdm-password]: gkr-pam: unlocked login keyring
+2025-07-09T17:49:54.793134+00:00 ubuntu sshd[9763]: Invalid user kali from 192.168.1.195 port 37966
+2025-07-09T17:50:00.841168+00:00 ubuntu sshd[9763]: pam_unix(sshd:auth): check pass; user unknown
+2025-07-09T17:50:00.841513+00:00 ubuntu sshd[9763]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.195 
+2025-07-09T17:50:02.199225+00:00 ubuntu sshd[9763]: Failed password for invalid user kali from 192.168.1.195 port 37966 ssh2
+2025-07-09T17:50:20.195361+00:00 ubuntu sshd[9763]: pam_unix(sshd:auth): check pass; user unknown
+2025-07-09T17:50:22.305253+00:00 ubuntu sshd[9763]: Failed password for invalid user kali from 192.168.1.195 port 37966 ssh2
+2025-07-09T17:50:27.869597+00:00 ubuntu sshd[9763]: pam_unix(sshd:auth): check pass; user unknown
+2025-07-09T17:50:29.938886+00:00 ubuntu sshd[9763]: Failed password for invalid user kali from 192.168.1.195 port 37966 ssh2
+2025-07-09T17:50:30.504034+00:00 ubuntu sshd[9763]: Connection closed by invalid user kali 192.168.1.195 port 37966 [preauth]
+2025-07-09T17:50:30.504275+00:00 ubuntu sshd[9763]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.195 
+2025-07-09T17:51:10.555203+00:00 ubuntu sshd[9777]: Invalid user kali from 192.168.1.195 port 52750
+2025-07-09T17:51:38.824283+00:00 ubuntu gdm-password]: gkr-pam: unlocked login keyring
+2025-07-09T17:51:44.185999+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2025-07-09T17:51:44.186454+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T17:51:44.229587+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T17:55:01.457306+00:00 ubuntu CRON[9899]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-09T17:55:01.463295+00:00 ubuntu CRON[9899]: pam_unix(cron:session): session closed for user root
+2025-07-09T18:05:01.492912+00:00 ubuntu CRON[9927]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-09T18:05:01.496433+00:00 ubuntu CRON[9927]: pam_unix(cron:session): session closed for user root
+2025-07-09T18:15:01.527218+00:00 ubuntu CRON[9938]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-09T18:15:01.528332+00:00 ubuntu CRON[9938]: pam_unix(cron:session): session closed for user root
+2025-07-09T18:17:01.538276+00:00 ubuntu CRON[9942]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-09T18:17:01.547266+00:00 ubuntu CRON[9942]: pam_unix(cron:session): session closed for user root
+2025-07-09T18:25:01.569495+00:00 ubuntu CRON[9951]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-09T18:25:01.572655+00:00 ubuntu CRON[9951]: pam_unix(cron:session): session closed for user root
+2025-07-09T18:30:01.586763+00:00 ubuntu CRON[9956]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-09T18:30:01.590267+00:00 ubuntu CRON[9956]: pam_unix(cron:session): session closed for user root
+2025-07-09T18:35:01.604063+00:00 ubuntu CRON[9966]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-09T18:35:01.605437+00:00 ubuntu CRON[9966]: pam_unix(cron:session): session closed for user root
+2025-07-09T18:45:01.632353+00:00 ubuntu CRON[9976]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-09T18:45:01.635870+00:00 ubuntu CRON[9976]: pam_unix(cron:session): session closed for user root
+2025-07-09T18:48:51.268098+00:00 ubuntu gdm-password]: gkr-pam: unlocked login keyring
+2025-07-09T18:49:03.977267+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2025-07-09T18:49:03.979658+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T18:49:04.023659+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T18:53:19.092073+00:00 ubuntu sshd[10091]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.213  user=ubuntu
+2025-07-09T18:53:20.990979+00:00 ubuntu sshd[10091]: Failed password for ubuntu from 192.168.1.213 port 60713 ssh2
+2025-07-09T18:53:34.579968+00:00 ubuntu sshd[10091]: message repeated 2 times: [ Failed password for ubuntu from 192.168.1.213 port 60713 ssh2]
+2025-07-09T18:53:34.747449+00:00 ubuntu sshd[10091]: Connection closed by authenticating user ubuntu 192.168.1.213 port 60713 [preauth]
+2025-07-09T18:53:34.748859+00:00 ubuntu sshd[10091]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.213  user=ubuntu
+2025-07-09T18:55:01.658221+00:00 ubuntu CRON[10094]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-09T18:55:01.659817+00:00 ubuntu CRON[10094]: pam_unix(cron:session): session closed for user root
+2025-07-09T18:55:08.461578+00:00 ubuntu sshd[10097]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.213  user=ubuntu
+2025-07-09T18:55:10.322178+00:00 ubuntu sshd[10097]: Failed password for ubuntu from 192.168.1.213 port 60776 ssh2
+2025-07-09T18:55:26.278994+00:00 ubuntu sshd[10097]: message repeated 2 times: [ Failed password for ubuntu from 192.168.1.213 port 60776 ssh2]
+2025-07-09T18:55:27.917245+00:00 ubuntu sshd[10097]: Connection closed by authenticating user ubuntu 192.168.1.213 port 60776 [preauth]
+2025-07-09T18:55:27.917330+00:00 ubuntu sshd[10097]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.213  user=ubuntu
+2025-07-09T18:56:03.094465+00:00 ubuntu sshd[10099]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.213  user=ubuntu
+2025-07-09T18:56:05.170037+00:00 ubuntu sshd[10099]: Failed password for ubuntu from 192.168.1.213 port 60789 ssh2
+2025-07-09T18:56:17.853108+00:00 ubuntu sshd[10099]: message repeated 2 times: [ Failed password for ubuntu from 192.168.1.213 port 60789 ssh2]
+2025-07-09T18:56:19.161554+00:00 ubuntu sshd[10099]: Connection closed by authenticating user ubuntu 192.168.1.213 port 60789 [preauth]
+2025-07-09T18:56:19.161885+00:00 ubuntu sshd[10099]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.213  user=ubuntu
+2025-07-09T18:57:34.102979+00:00 ubuntu gdm-password]: gkr-pam: unlocked login keyring
+2025-07-09T18:57:44.466379+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2025-07-09T18:57:44.466634+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T18:57:44.509475+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T18:58:08.424147+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/nano /etc/fail2ban/jail.local
+2025-07-09T18:58:08.425454+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T18:58:42.502875+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T18:59:27.277256+00:00 ubuntu sshd[10222]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.213  user=ubuntu
+2025-07-09T18:59:29.026815+00:00 ubuntu sshd[10222]: Failed password for ubuntu from 192.168.1.213 port 60835 ssh2
+2025-07-09T18:59:39.475970+00:00 ubuntu sshd[10222]: message repeated 2 times: [ Failed password for ubuntu from 192.168.1.213 port 60835 ssh2]
+2025-07-09T18:59:39.530195+00:00 ubuntu sshd[10222]: Connection closed by authenticating user ubuntu 192.168.1.213 port 60835 [preauth]
+2025-07-09T18:59:39.530433+00:00 ubuntu sshd[10222]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.213  user=ubuntu
+2025-07-09T18:59:47.244306+00:00 ubuntu sshd[10224]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.213  user=ubuntu
+2025-07-09T18:59:49.078067+00:00 ubuntu sshd[10224]: Failed password for ubuntu from 192.168.1.213 port 60842 ssh2
+2025-07-09T19:00:31.628508+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/nano /etc/fail2ban/jail.local
+2025-07-09T19:00:31.629574+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T19:00:38.921890+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T19:00:42.063600+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2025-07-09T19:00:42.064528+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T19:00:42.105054+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T19:01:26.450949+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/tail /var/log/auth.log
+2025-07-09T19:01:26.451557+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T19:01:26.454380+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T19:02:10.316401+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/tail /var/log.fail2ban.log
+2025-07-09T19:02:10.317072+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T19:02:10.319366+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T19:02:49.353472+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/tail /var/log/fail2ban.log
+2025-07-09T19:02:49.358216+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T19:02:49.358270+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T19:04:20.955699+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2025-07-09T19:04:20.956179+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T19:04:20.997628+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T19:05:01.681541+00:00 ubuntu CRON[10256]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-09T19:05:01.685121+00:00 ubuntu CRON[10256]: pam_unix(cron:session): session closed for user root
+2025-07-09T19:05:23.419731+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd unbanip 192.168.1.213
+2025-07-09T19:05:23.420502+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T19:05:23.465732+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T19:05:44.738827+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2025-07-09T19:05:44.741764+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T19:05:44.781717+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T19:06:21.651331+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/fail2ban-client set status sshd unbanip 192.168.1.213
+2025-07-09T19:06:21.651924+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T19:06:21.694132+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T19:06:48.449218+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/fail2ban-client set sshd unbanip 192.168.1.213
+2025-07-09T19:06:48.449787+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T19:06:48.508705+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T19:06:58.135546+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2025-07-09T19:06:58.136216+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T19:06:58.181050+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T19:07:35.289307+00:00 ubuntu sshd[10293]: Accepted password for ubuntu from 192.168.1.213 port 60934 ssh2
+2025-07-09T19:07:35.292248+00:00 ubuntu sshd[10293]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2025-07-09T19:07:35.302020+00:00 ubuntu systemd-logind[917]: New session 30 of user ubuntu.
+2025-07-09T19:12:24.969636+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/cp /etc/fail2ban/jail.local /home/ubuntu/fail2ban-ssh-harding/
+2025-07-09T19:12:24.971210+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T19:12:24.974487+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T19:14:23.193584+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2025-07-09T19:14:23.193878+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-07-09T19:14:23.242268+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-07-09T19:15:01.710006+00:00 ubuntu CRON[10522]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-09T19:15:01.713488+00:00 ubuntu CRON[10522]: pam_unix(cron:session): session closed for user root
+2025-07-09T19:16:04.733798+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/cp /var/log/auth.log /home/ubuntu/fail2ban-ssh-harding/fail2ban-auth.log
+2025-07-09T19:16:04.734910+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
