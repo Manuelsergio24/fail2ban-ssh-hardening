@@ -1,0 +1,1069 @@
+ 
+ ################### Logwatch 7.7 (07/22/22) #################### 
+        Processing Initiated: Thu Jul 10 05:22:21 2025
+        Date Range Processed: yesterday
+                              ( 2025-Jul-09 )
+                              Period is day.
+        Detail Level of Output: 10
+        Type of Output/Format: stdout / text
+        Logfiles for Host: ubuntu
+ ################################################################## 
+ 
+ --------------------- System Configuration Begin ------------------------ 
+
+    Machine: aarch64
+    Release: Linux 6.8.0-63-generic
+ 
+ ---------------------- System Configuration End ------------------------- 
+
+ 
+ --------------------- Cron Begin ------------------------ 
+
+ 
+ 
+ Commands Run:
+    User root:
+       [ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi: 8 Time(s)
+       cd / && run-parts --report /etc/cron.hourly: 7 Time(s)
+       command -v debian-sa1 > /dev/null && debian-sa1 1 1: 42 Time(s)
+       command -v debian-sa1 > /dev/null && debian-sa1 60 2: 1 Time(s)
+ 
+ ---------------------- Cron End ------------------------- 
+
+ 
+ --------------------- dpkg status changes Begin ------------------------ 
+
+ 
+ Installed:
+    fail2ban:all 1.0.2-3ubuntu0.1
+    libdate-manip-perl:all 6.95-1
+    libnsl2:arm64 1.3.0-3build3
+    logwatch:all 7.7-1ubuntu1
+    postfix:arm64 3.8.6-1build2
+    python3-pyasyncore:all 1.0.2-2
+    python3-pyinotify:all 0.9.6-2ubuntu1
+    vsftpd:arm64 3.0.5-0ubuntu3.1
+    whois:arm64 5.5.22
+ 
+ Reinstalled:
+    ufw:all 0.36.2-6
+ 
+ Upgraded:
+    bsdextrautils:arm64 2.39.3-9ubuntu6.2 => 2.39.3-9ubuntu6.3
+    bsdutils:arm64 1:2.39.3-9ubuntu6.2 => 1:2.39.3-9ubuntu6.3
+    dirmngr:arm64 2.4.4-2ubuntu17.2 => 2.4.4-2ubuntu17.3
+    dnsmasq-base:arm64 2.90-2build2 => 2.90-2ubuntu0.1
+    eject:arm64 2.39.3-9ubuntu6.2 => 2.39.3-9ubuntu6.3
+    fdisk:arm64 2.39.3-9ubuntu6.2 => 2.39.3-9ubuntu6.3
+    ghostscript:arm64 10.02.1~dfsg1-0ubuntu7.6 => 10.02.1~dfsg1-0ubuntu7.7
+    git-man:all 1:2.43.0-1ubuntu7.2 => 1:2.43.0-1ubuntu7.3
+    git:arm64 1:2.43.0-1ubuntu7.2 => 1:2.43.0-1ubuntu7.3
+    gnupg-l10n:all 2.4.4-2ubuntu17.2 => 2.4.4-2ubuntu17.3
+    gnupg-utils:arm64 2.4.4-2ubuntu17.2 => 2.4.4-2ubuntu17.3
+    gnupg:all 2.4.4-2ubuntu17.2 => 2.4.4-2ubuntu17.3
+    gpg-agent:arm64 2.4.4-2ubuntu17.2 => 2.4.4-2ubuntu17.3
+    gpg-wks-client:arm64 2.4.4-2ubuntu17.2 => 2.4.4-2ubuntu17.3
+    gpg:arm64 2.4.4-2ubuntu17.2 => 2.4.4-2ubuntu17.3
+    gpgconf:arm64 2.4.4-2ubuntu17.2 => 2.4.4-2ubuntu17.3
+    gpgsm:arm64 2.4.4-2ubuntu17.2 => 2.4.4-2ubuntu17.3
+    gpgv:arm64 2.4.4-2ubuntu17.2 => 2.4.4-2ubuntu17.3
+    gzip:arm64 1.12-1ubuntu3 => 1.12-1ubuntu3.1
+    keyboxd:arm64 2.4.4-2ubuntu17.2 => 2.4.4-2ubuntu17.3
+    libblkid1:arm64 2.39.3-9ubuntu6.2 => 2.39.3-9ubuntu6.3
+    libdjvulibre-text:all 3.5.28-2build4 => 3.5.28-2ubuntu0.24.04.1
+    libdjvulibre21:arm64 3.5.28-2build4 => 3.5.28-2ubuntu0.24.04.1
+    libfdisk1:arm64 2.39.3-9ubuntu6.2 => 2.39.3-9ubuntu6.3
+    libfreerdp-client3-3:arm64 3.5.1+dfsg1-0ubuntu1 => 3.5.1+dfsg1-0ubuntu1.1
+    libfreerdp-server3-3:arm64 3.5.1+dfsg1-0ubuntu1 => 3.5.1+dfsg1-0ubuntu1.1
+    libfreerdp3-3:arm64 3.5.1+dfsg1-0ubuntu1 => 3.5.1+dfsg1-0ubuntu1.1
+    libgs-common:all 10.02.1~dfsg1-0ubuntu7.6 => 10.02.1~dfsg1-0ubuntu7.7
+    libgs10-common:all 10.02.1~dfsg1-0ubuntu7.6 => 10.02.1~dfsg1-0ubuntu7.7
+    libgs10:arm64 10.02.1~dfsg1-0ubuntu7.6 => 10.02.1~dfsg1-0ubuntu7.7
+    libmount1:arm64 2.39.3-9ubuntu6.2 => 2.39.3-9ubuntu6.3
+    libnautilus-extension4:arm64 1:46.2-0ubuntu0.3 => 1:46.4-0ubuntu0.1
+    libprotobuf32t64:arm64 3.21.12-8.2ubuntu0.1 => 3.21.12-8.2ubuntu0.2
+    libsmartcols1:arm64 2.39.3-9ubuntu6.2 => 2.39.3-9ubuntu6.3
+    libssh-4:arm64 0.10.6-2build2 => 0.10.6-2ubuntu0.1
+    libuuid1:arm64 2.39.3-9ubuntu6.2 => 2.39.3-9ubuntu6.3
+    libwinpr3-3:arm64 3.5.1+dfsg1-0ubuntu1 => 3.5.1+dfsg1-0ubuntu1.1
+    mount:arm64 2.39.3-9ubuntu6.2 => 2.39.3-9ubuntu6.3
+    nautilus-data:all 1:46.2-0ubuntu0.3 => 1:46.4-0ubuntu0.1
+    nautilus:arm64 1:46.2-0ubuntu0.3 => 1:46.4-0ubuntu0.1
+    rfkill:arm64 2.39.3-9ubuntu6.2 => 2.39.3-9ubuntu6.3
+    util-linux:arm64 2.39.3-9ubuntu6.2 => 2.39.3-9ubuntu6.3
+    uuid-runtime:arm64 2.39.3-9ubuntu6.2 => 2.39.3-9ubuntu6.3
+ 
+ Removed:
+    iptables-persistent:all 1.0.20
+    netfilter-persistent:all 1.0.20
+    vsftpd:arm64 3.0.5-0ubuntu3.1
+ 
+ ---------------------- dpkg status changes End ------------------------- 
+
+ 
+ --------------------- fail2ban-messages Begin ------------------------ 
+
+ 
+ Banned services with Fail2Ban:                        Bans:Unbans  ReBans:Flush
+    sshd:                                              [  2:2  ]      [  0:0  ]
+       192.168.1.195                                      1:1            0:0  
+       192.168.1.213                                      1:1            0:0  
+ 
+ Fail2Ban hosts found:
+     sshd:
+        192.168.1.195   (  5 Times)
+        192.168.1.213   (  5 Times)
+ 
+ ** ERRORS **
+      Command ['set', 'status', 'sshd', 'unbanip', '192.168.1.213'] has failed. R...: 1 Time(s)
+      Command ['status', 'sshd', 'unbanip', '192.168.1.213'] has failed. Received...: 1 Time(s)
+ 
+ ** WARNINGS **
+    New database created. Version '4': 1 Time(s)
+ 
+ Informational Messages:
+         banTime: 600: 4 Time(s)
+         encoding: UTF-8: 4 Time(s)
+         findtime: 600: 4 Time(s)
+         maxLines: 1: 4 Time(s)
+         maxRetry: 5: 4 Time(s)
+       --------------------------------------------------: 4 Time(s)
+       Connection to database closed.: 2 Time(s)
+       Exiting Fail2ban: 2 Time(s)
+       Observer start...: 4 Time(s)
+       Observer stop ... try to end queue 5 seconds: 2 Time(s)
+       Observer stopped, 0 events remaining.: 2 Time(s)
+       Removed logfile: '/var/log/auth.log': 1 Time(s)
+       Shutdown in progress...: 2 Time(s)
+       Starting Fail2ban v1.0.2: 4 Time(s)
+       Stopping all jails: 2 Time(s)
+       [sshd] Added journal match for: '_SYSTEMD_UNIT=sshd.service + _COMM=sshd': 1 Time(s)
+       [sshd] Jail is in operation now (process new journal entries): 1 Time(s)
+ 
+ Notices:
+     [sshd] Flush ticket(s) with iptables-multiport: 1 Time(s)
+     [sshd] Flush ticket(s) with nftables: 1 Time(s)
+ 
+ ---------------------- fail2ban-messages End ------------------------- 
+
+ 
+ --------------------- HTTPD Errors Begin ------------------------ 
+
+ 
+ Level notice
+    notice code: AH00094
+       Command line: '/usr/sbin/apache2':  3 Time(s)
+    notice code: AH00492
+       caught SIGWINCH, shutting down gracefully:  1 Time(s)
+    notice code: AH00489
+       Apache/2.4.58 (Ubuntu) configured -- resuming normal operations:  3 Time(s) 
+ ---------------------- HTTPD Errors End ------------------------- 
+
+ 
+ --------------------- Kernel Begin ------------------------ 
+
+ 
+ 2 Time(s): 	Rude variant of Tasks RCU enabled.
+ 2 Time(s): 	Tracing variant of Tasks RCU enabled.
+ 2 Time(s): 	Trampoline variant of Tasks RCU enabled.
+ 2 Time(s):     /init
+ 2 Time(s):     BOOT_IMAGE=/vmlinuz-6.8.0-63-generic
+ 2 Time(s):     HOME=/
+ 2 Time(s):     TERM=linux
+ 1 Time(s):    32regs          : 39331 MB/sec
+ 1 Time(s):    32regs          : 39969 MB/sec
+ 1 Time(s):    8regs           : 42107 MB/sec
+ 1 Time(s):    8regs           : 43240 MB/sec
+ 1 Time(s):    arm64_neon      : 51838 MB/sec
+ 1 Time(s):    arm64_neon      : 52355 MB/sec
+ 2 Time(s):   DMA      [mem 0x0000000040000000-0x00000000ffffffff]
+ 2 Time(s):   DMA32    empty
+ 2 Time(s):   Device   empty
+ 2 Time(s):   Normal   [mem 0x0000000100000000-0x000000013fffffff]
+ 2 Time(s):   node   0: [mem 0x0000000040000000-0x000000013c05ffff]
+ 2 Time(s):   node   0: [mem 0x000000013c060000-0x000000013c06ffff]
+ 2 Time(s):   node   0: [mem 0x000000013c070000-0x000000013c15ffff]
+ 2 Time(s):   node   0: [mem 0x000000013c160000-0x000000013c47ffff]
+ 2 Time(s):   node   0: [mem 0x000000013c480000-0x000000013f75ffff]
+ 2 Time(s):   node   0: [mem 0x000000013f760000-0x000000013f7effff]
+ 2 Time(s):   node   0: [mem 0x000000013f7f0000-0x000000013f7fffff]
+ 2 Time(s):   node   0: [mem 0x000000013f800000-0x000000013f91ffff]
+ 2 Time(s):   node   0: [mem 0x000000013f920000-0x000000013fffffff]
+ 2 Time(s):   with arguments:
+ 2 Time(s):   with environment:
+ 2 Time(s):  vda: vda1 vda2 vda3
+ 2 Time(s): ACPI: 1 ACPI AML tables successfully acquired and loaded
+ 2 Time(s): ACPI: APIC 0x000000013C15D898 000388 (v04 BOCHS  BXPC     00000001 BXPC 00000001)
+ 2 Time(s): ACPI: Added _OSI(3.0 _SCP Extensions)
+ 2 Time(s): ACPI: Added _OSI(Module Device)
+ 2 Time(s): ACPI: Added _OSI(Processor Aggregator Device)
+ 2 Time(s): ACPI: Added _OSI(Processor Device)
+ 2 Time(s): ACPI: BGRT 0x000000013C15FD98 000038 (v01 INTEL  EDK2     00000002      01000013)
+ 2 Time(s): ACPI: Core revision 20230628
+ 2 Time(s): ACPI: DBG2 0x000000013C15FE18 000057 (v00 BOCHS  BXPC     00000001 BXPC 00000001)
+ 2 Time(s): ACPI: DSDT 0x000000013C157518 00151E (v02 BOCHS  BXPC     00000001 BXPC 00000001)
+ 2 Time(s): ACPI: Early table checksum verification disabled
+ 2 Time(s): ACPI: FACP 0x000000013C15FA98 000114 (v06 BOCHS  BXPC     00000001 BXPC 00000001)
+ 2 Time(s): ACPI: GTDT 0x000000013C15E898 000068 (v03 BOCHS  BXPC     00000001 BXPC 00000001)
+ 2 Time(s): ACPI: IORT 0x000000013C15FC98 000080 (v03 BOCHS  BXPC     00000001 BXPC 00000001)
+ 2 Time(s): ACPI: Interpreter enabled
+ 2 Time(s): ACPI: MCFG 0x000000013C15FF98 00003C (v01 BOCHS  BXPC     00000001 BXPC 00000001)
+ 2 Time(s): ACPI: MCFG table detected, 1 entries
+ 2 Time(s): ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-0f])
+ 2 Time(s): ACPI: PCI: Interrupt link L000 configured for IRQ 35
+ 2 Time(s): ACPI: PCI: Interrupt link L001 configured for IRQ 36
+ 2 Time(s): ACPI: PCI: Interrupt link L002 configured for IRQ 37
+ 2 Time(s): ACPI: PCI: Interrupt link L003 configured for IRQ 38
+ 2 Time(s): ACPI: PPTT 0x000000013C15E718 000100 (v02 BOCHS  BXPC     00000001 BXPC 00000001)
+ 2 Time(s): ACPI: RSDP 0x000000013C150018 000024 (v02 BOCHS )
+ 2 Time(s): ACPI: Remapped I/O 0x000000003eff0000 to [io  0x0000-0xffff window]
+ 2 Time(s): ACPI: SPCR 0x000000013C15FC18 000050 (v02 BOCHS  BXPC     00000001 BXPC 00000001)
+ 2 Time(s): ACPI: SPCR: console: pl011,mmio32,0x9000000,9600
+ 2 Time(s): ACPI: Using GIC for interrupt routing
+ 2 Time(s): ACPI: XSDT 0x000000013C15FE98 00006C (v01 BOCHS  BXPC     00000001      01000013)
+ 2 Time(s): ACPI: \_SB_.L000: Enabled at IRQ 35
+ 2 Time(s): ACPI: \_SB_.L001: Enabled at IRQ 36
+ 2 Time(s): ACPI: \_SB_.L002: Enabled at IRQ 37
+ 2 Time(s): ACPI: \_SB_.L003: Enabled at IRQ 38
+ 2 Time(s): ACPI: bus type USB registered
+ 2 Time(s): ACPI: bus type drm_connector registered
+ 2 Time(s): ACPI: button: Power Button [PWRB]
+ 2 Time(s): ARMH0011:00: ttyAMA0 at MMIO 0x9000000 (irq = 12, base_baud = 0) is a SBSA
+ 2 Time(s): ASID allocator initialised with 256 entries
+ 2 Time(s): Adding 3994620k swap on /swap.img.  Priority:-2 extents:3 across:4256764k 
+ 2 Time(s): AppArmor: AppArmor Filesystem Enabled
+ 2 Time(s): AppArmor: AppArmor initialized
+ 2 Time(s): AppArmor: AppArmor sha256 policy hashing enabled
+ 2 Time(s): Asymmetric key parser 'x509' registered
+ 2 Time(s): Block layer SCSI generic (bsg) driver version 0.4 loaded (major 242)
+ 2 Time(s): Booting Linux on physical CPU 0x0000000000 [0x610f0000]
+ 2 Time(s): Btrfs loaded, zoned=yes, fsverity=yes
+ 2 Time(s): Built 1 zonelists, mobility grouping on.  Total pages: 1032192
+ 2 Time(s): CPU features: detected: ARMv8.4 Translation Table Level
+ 2 Time(s): CPU features: detected: Address authentication (IMP DEF algorithm)
+ 2 Time(s): CPU features: detected: CRC32 instructions
+ 2 Time(s): CPU features: detected: Common not Private translations
+ 2 Time(s): CPU features: detected: Data cache clean to Point of Deep Persistence
+ 2 Time(s): CPU features: detected: Data cache clean to Point of Persistence
+ 2 Time(s): CPU features: detected: Data cache clean to the PoU not required for I/D coherence
+ 2 Time(s): CPU features: detected: Data independent timing control (DIT)
+ 2 Time(s): CPU features: detected: E0PD
+ 2 Time(s): CPU features: detected: Enhanced Privileged Access Never
+ 2 Time(s): CPU features: detected: Fine Grained Traps
+ 2 Time(s): CPU features: detected: Generic authentication (IMP DEF algorithm)
+ 2 Time(s): CPU features: detected: LSE atomic instructions
+ 2 Time(s): CPU features: detected: Privileged Access Never
+ 2 Time(s): CPU features: detected: RAS Extension Support
+ 2 Time(s): CPU features: detected: RCpc load-acquire (LDAPR)
+ 2 Time(s): CPU features: detected: Spectre-v4
+ 2 Time(s): CPU features: detected: Speculation barrier (SB)
+ 2 Time(s): CPU features: detected: Speculative Store Bypassing Safe (SSBS)
+ 2 Time(s): CPU features: detected: TLB range maintenance instructions
+ 2 Time(s): CPU1: Booted secondary processor 0x0000000001 [0x610f0000]
+ 2 Time(s): CPU2: Booted secondary processor 0x0000000002 [0x610f0000]
+ 2 Time(s): CPU3: Booted secondary processor 0x0000000003 [0x610f0000]
+ 2 Time(s): CPU4: Booted secondary processor 0x0000000004 [0x610f0000]
+ 2 Time(s): CPU5: Booted secondary processor 0x0000000005 [0x610f0000]
+ 2 Time(s): CPU6: Booted secondary processor 0x0000000006 [0x610f0000]
+ 2 Time(s): CPU7: Booted secondary processor 0x0000000007 [0x610f0000]
+ 2 Time(s): CPU8: Booted secondary processor 0x0000000008 [0x610f0000]
+ 2 Time(s): CPU9: Booted secondary processor 0x0000000009 [0x610f0000]
+ 2 Time(s): CPU: All CPU(s) started at EL1
+ 2 Time(s): Calibrating delay loop (skipped), value calculated using timer frequency.. 48.00 BogoMIPS (lpj=24000)
+ 2 Time(s): Checked W+X mappings: passed, no W+X pages found
+ 2 Time(s): Console: colour dummy device 80x25
+ 2 Time(s): DMA: preallocated 512 KiB GFP_KERNEL pool for atomic allocations
+ 2 Time(s): DMA: preallocated 512 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+ 2 Time(s): DMA: preallocated 512 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+ 2 Time(s): DMI: QEMU QEMU Virtual Machine, BIOS 0.0.0 02/06/2015
+ 2 Time(s): Dentry cache hash table entries: 524288 (order: 10, 4194304 bytes, linear)
+ 2 Time(s): Detected PIPT I-cache on CPU0
+ 2 Time(s): Detected PIPT I-cache on CPU1
+ 2 Time(s): Detected PIPT I-cache on CPU2
+ 2 Time(s): Detected PIPT I-cache on CPU3
+ 2 Time(s): Detected PIPT I-cache on CPU4
+ 2 Time(s): Detected PIPT I-cache on CPU5
+ 2 Time(s): Detected PIPT I-cache on CPU6
+ 2 Time(s): Detected PIPT I-cache on CPU7
+ 2 Time(s): Detected PIPT I-cache on CPU8
+ 2 Time(s): Detected PIPT I-cache on CPU9
+ 2 Time(s): Dynamic Preempt: voluntary
+ 2 Time(s): EDAC MC: Ver: 3.0.0
+ 2 Time(s): Early memory node ranges
+ 2 Time(s): Fallback order for Node 0: 0 
+ 2 Time(s): Freeing initrd memory: 74984K
+ 2 Time(s): Freeing unused kernel memory: 12224K
+ 2 Time(s): GICv3: 0 Extended SPIs implemented
+ 2 Time(s): GICv3: 256 SPIs implemented
+ 2 Time(s): GICv3: CPU0: found redistributor 0 region 0:0x00000000080a0000
+ 1 Time(s): GICv3: CPU0: using allocated LPI pending table @0x00000001002d0000
+ 1 Time(s): GICv3: CPU0: using allocated LPI pending table @0x00000001002e0000
+ 2 Time(s): GICv3: CPU1: found redistributor 1 region 0:0x00000000080c0000
+ 1 Time(s): GICv3: CPU1: using allocated LPI pending table @0x00000001002e0000
+ 1 Time(s): GICv3: CPU1: using allocated LPI pending table @0x00000001002f0000
+ 2 Time(s): GICv3: CPU2: found redistributor 2 region 0:0x00000000080e0000
+ 1 Time(s): GICv3: CPU2: using allocated LPI pending table @0x00000001002f0000
+ 1 Time(s): GICv3: CPU2: using allocated LPI pending table @0x0000000100300000
+ 2 Time(s): GICv3: CPU3: found redistributor 3 region 0:0x0000000008100000
+ 1 Time(s): GICv3: CPU3: using allocated LPI pending table @0x0000000100300000
+ 1 Time(s): GICv3: CPU3: using allocated LPI pending table @0x0000000100310000
+ 2 Time(s): GICv3: CPU4: found redistributor 4 region 0:0x0000000008120000
+ 1 Time(s): GICv3: CPU4: using allocated LPI pending table @0x0000000100310000
+ 1 Time(s): GICv3: CPU4: using allocated LPI pending table @0x0000000100320000
+ 2 Time(s): GICv3: CPU5: found redistributor 5 region 0:0x0000000008140000
+ 1 Time(s): GICv3: CPU5: using allocated LPI pending table @0x0000000100320000
+ 1 Time(s): GICv3: CPU5: using allocated LPI pending table @0x0000000100330000
+ 2 Time(s): GICv3: CPU6: found redistributor 6 region 0:0x0000000008160000
+ 1 Time(s): GICv3: CPU6: using allocated LPI pending table @0x0000000100330000
+ 1 Time(s): GICv3: CPU6: using allocated LPI pending table @0x0000000100340000
+ 2 Time(s): GICv3: CPU7: found redistributor 7 region 0:0x0000000008180000
+ 1 Time(s): GICv3: CPU7: using allocated LPI pending table @0x0000000100340000
+ 1 Time(s): GICv3: CPU7: using allocated LPI pending table @0x0000000100350000
+ 2 Time(s): GICv3: CPU8: found redistributor 8 region 0:0x00000000081a0000
+ 1 Time(s): GICv3: CPU8: using allocated LPI pending table @0x0000000100350000
+ 1 Time(s): GICv3: CPU8: using allocated LPI pending table @0x0000000100360000
+ 2 Time(s): GICv3: CPU9: found redistributor 9 region 0:0x00000000081c0000
+ 1 Time(s): GICv3: CPU9: using allocated LPI pending table @0x0000000100360000
+ 1 Time(s): GICv3: CPU9: using allocated LPI pending table @0x0000000100370000
+ 2 Time(s): GICv3: GICv3 features: 16 PPIs
+ 1 Time(s): GICv3: using LPI property table @0x00000001002c0000
+ 1 Time(s): GICv3: using LPI property table @0x00000001002d0000
+ 2 Time(s): HugeTLB: 0 KiB vmemmap can be freed for a 1.00 GiB page
+ 2 Time(s): HugeTLB: 0 KiB vmemmap can be freed for a 2.00 MiB page
+ 2 Time(s): HugeTLB: 0 KiB vmemmap can be freed for a 32.0 MiB page
+ 2 Time(s): HugeTLB: 0 KiB vmemmap can be freed for a 64.0 KiB page
+ 2 Time(s): HugeTLB: registered 1.00 GiB page size, pre-allocated 0 pages
+ 2 Time(s): HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+ 2 Time(s): HugeTLB: registered 32.0 MiB page size, pre-allocated 0 pages
+ 2 Time(s): HugeTLB: registered 64.0 KiB page size, pre-allocated 0 pages
+ 2 Time(s): IP idents hash table entries: 65536 (order: 7, 524288 bytes, linear)
+ 2 Time(s): ITS [mem 0x08080000-0x0809ffff]
+ 2 Time(s): ITS@0x0000000008080000: allocated 8192 Devices @1002a0000 (indirect, esz 8, psz 64K, shr 1)
+ 2 Time(s): ITS@0x0000000008080000: allocated 8192 Interrupt Collections @1002b0000 (flat, esz 8, psz 64K, shr 1)
+ 2 Time(s): In-situ OAM (IOAM) with IPv6
+ 2 Time(s): Initialise system trusted keyrings
+ 2 Time(s): Initmem setup node 0 [mem 0x0000000040000000-0x000000013fffffff]
+ 2 Time(s): Inode-cache hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+ 2 Time(s): KASLR enabled
+ 2 Time(s): Kernel command line: BOOT_IMAGE=/vmlinuz-6.8.0-63-generic root=/dev/mapper/ubuntu--vg-ubuntu--lv ro
+ 2 Time(s): Key type .fscrypt registered
+ 2 Time(s): Key type asymmetric registered
+ 2 Time(s): Key type blacklist registered
+ 2 Time(s): Key type dns_resolver registered
+ 2 Time(s): Key type encrypted registered
+ 2 Time(s): Key type fscrypt-provisioning registered
+ 2 Time(s): LSM: initializing lsm=lockdown,capability,landlock,yama,apparmor,integrity
+ 2 Time(s): Linux version 6.8.0-63-generic (buildd@bos03-arm64-119) (aarch64-linux-gnu-gcc-13 (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0, GNU ld (GNU Binutils for Ubuntu) 2.42) #66-Ubuntu SMP PREEMPT_DYNAMIC Fri Jun 13 20:09:49 UTC 2025 (Ubuntu 6.8.0-63.66-generic 6.8.12)
+ 4 Time(s): Loaded X.509 cert 'Build time autogenerated kernel key: d6bd88654855da3c11672efc394b88553184beb7'
+ 2 Time(s): Loaded X.509 cert 'Canonical Ltd. Kernel Module Signing: 88f752e560a1e0737e31163a466ad7b70a850c19'
+ 2 Time(s): Loaded X.509 cert 'Canonical Ltd. Live Patch Signing 2025 Kmod: d541cef61dc7e793b7eb7e899970a2eef0b5dc8c'
+ 2 Time(s): Loaded X.509 cert 'Canonical Ltd. Live Patch Signing: 14df34d1a87cf37625abec039ef2bf521249b969'
+ 2 Time(s): Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2017): 242ade75ac4a15e50d50c84b0d45ff3eae707a03'
+ 2 Time(s): Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2019): c0746fd6c5da3ae827864651ad66ae47fe24b3e8'
+ 2 Time(s): Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v1): a8d54bbb3825cfb94fa13c9f8a594a195c107b8d'
+ 2 Time(s): Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v2): 4cf046892d6fd3c9a5b03f98d845f90851dc6a8c'
+ 2 Time(s): Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v3): 100437bb6de6e469b581e61cd66bce3ef4ed53af'
+ 2 Time(s): Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (ESM 2018): 365188c1d374d6b07c3c8f240f8ef722433d6a8b'
+ 2 Time(s): Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (Ubuntu Core 2019): c1d57b8f6b743f23ee41f4f7ee292f06eecadfb9'
+ 2 Time(s): Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing: 61482aa2830d0ab2ad5af10b7250da9033ddcef0'
+ 2 Time(s): Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+ 2 Time(s): Loaded X.509 cert 'wens: 61c038651aabdcf94bd0ac7ff06c7248db18c600'
+ 2 Time(s): Loading compiled-in X.509 certificates
+ 2 Time(s): Loading compiled-in module X.509 certificates
+ 2 Time(s): MPTCP token hash table entries: 4096 (order: 4, 98304 bytes, linear)
+ 1 Time(s): Memory: 3874936K/4194304K available (23104K kernel code, 5192K rwdata, 16032K rodata, 12224K init, 1233K bss, 286600K reserved, 32768K cma-reserved)
+ 1 Time(s): Memory: 3874948K/4194304K available (23104K kernel code, 5192K rwdata, 16032K rodata, 12224K init, 1233K bss, 286588K reserved, 32768K cma-reserved)
+ 2 Time(s): Modules: 0 pages in range for non-PLT usage
+ 2 Time(s): Modules: 2G module region forced by RANDOMIZE_MODULE_REGION_FULL
+ 2 Time(s): Modules: 509792 pages in range for PLT usage
+ 2 Time(s): Mount-cache hash table entries: 8192 (order: 4, 65536 bytes, linear)
+ 2 Time(s): Mountpoint-cache hash table entries: 8192 (order: 4, 65536 bytes, linear)
+ 2 Time(s): Movable zone start for each node
+ 2 Time(s): NET: Registered PF_INET protocol family
+ 2 Time(s): NET: Registered PF_INET6 protocol family
+ 2 Time(s): NET: Registered PF_MCTP protocol family
+ 2 Time(s): NET: Registered PF_NETLINK/PF_ROUTE protocol family
+ 2 Time(s): NET: Registered PF_PACKET protocol family
+ 2 Time(s): NET: Registered PF_QIPCRTR protocol family
+ 2 Time(s): NET: Registered PF_UNIX/PF_LOCAL protocol family
+ 2 Time(s): NET: Registered PF_XDP protocol family
+ 2 Time(s): NR_IRQS: 64, nr_irqs: 64, preallocated irqs: 0
+ 2 Time(s): NUMA: Failed to initialise from firmware
+ 2 Time(s): NUMA: Faking a node at [mem 0x0000000040000000-0x000000013fffffff]
+ 1 Time(s): NUMA: NODE_DATA [mem 0x13f64b5c0-0x13f650fff]
+ 1 Time(s): NUMA: NODE_DATA [mem 0x13f64e5c0-0x13f653fff]
+ 2 Time(s): NetLabel:  domain hash size = 128
+ 2 Time(s): NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+ 2 Time(s): NetLabel:  unlabeled traffic allowed by default
+ 2 Time(s): NetLabel: Initializing
+ 2 Time(s): PCI host bridge to bus 0000:00
+ 2 Time(s): PCI/MSI: ITS@0x8080000 domain created
+ 2 Time(s): PCI: CLS 0 bytes, default 64
+ 2 Time(s): PPP generic driver version 2.4.2
+ 2 Time(s): PTP clock support registered
+ 2 Time(s): Platform MSI: ITS@0x8080000 domain created
+ 2 Time(s): Policy zone: Normal
+ 2 Time(s): RCU Tasks Rude: Setting shift to 4 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=10.
+ 2 Time(s): RCU Tasks Trace: Setting shift to 4 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=10.
+ 2 Time(s): RCU Tasks: Setting shift to 4 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=10.
+ 2 Time(s): Remapping and enabling EFI services.
+ 2 Time(s): Root IRQ handler: gic_handle_irq
+ 2 Time(s): Run /init as init process
+ 2 Time(s): SCSI subsystem initialized
+ 2 Time(s): SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=10, Nodes=1
+ 2 Time(s): SMBIOS 3.0.0 present.
+ 2 Time(s): SMP: Total of 10 processors activated.
+ 2 Time(s): Segment Routing with IPv6
+ 2 Time(s): Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+ 2 Time(s): Serial: AMBA PL011 UART driver
+ 2 Time(s): SuperH (H)SCI(F) driver initialized
+ 2 Time(s): TCP bind hash table entries: 32768 (order: 8, 1048576 bytes, linear)
+ 2 Time(s): TCP established hash table entries: 32768 (order: 6, 262144 bytes, linear)
+ 2 Time(s): TCP: Hash tables configured (established 32768 bind 32768)
+ 2 Time(s): Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+ 2 Time(s): Trying to unpack rootfs image as initramfs...
+ 2 Time(s): UDP hash table entries: 2048 (order: 4, 65536 bytes, linear)
+ 2 Time(s): UDP-Lite hash table entries: 2048 (order: 4, 65536 bytes, linear)
+ 2 Time(s): Unknown kernel command line parameters "BOOT_IMAGE=/vmlinuz-6.8.0-63-generic", will be passed to user space.
+ 2 Time(s): VFS: Disk quotas dquot_6.6.0
+ 2 Time(s): VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+ 2 Time(s): Yama: becoming mindful.
+ 2 Time(s): Zone ranges:
+ 2 Time(s): [drm] Initialized virtio_gpu 0.1.0 0 for 0000:00:02.0 on minor 0
+ 2 Time(s): [drm] features: -context_init
+ 2 Time(s): [drm] features: -virgl +edid -resource_blob -host_visible
+ 2 Time(s): [drm] number of cap sets: 0
+ 2 Time(s): [drm] number of scanouts: 1
+ 2 Time(s): [drm] pci: virtio-gpu-pci detected at 0000:00:02.0
+ 2 Time(s): acpi PNP0A08:00: ECAM area [mem 0x3f000000-0x3fffffff] reserved by PNP0C02:00
+ 2 Time(s): acpi PNP0A08:00: ECAM at [mem 0x3f000000-0x3fffffff] for [bus 00-0f]
+ 2 Time(s): acpi PNP0A08:00: _OSC: OS now controls [PCIeHotplug SHPCHotplug PME AER PCIeCapability]
+ 2 Time(s): acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI EDR HPX-Type3]
+ 2 Time(s): acpi PNP0A08:00: _OSC: platform does not support [LTR DPC]
+ 2 Time(s): acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+ 2 Time(s): alternatives: applying boot alternatives
+ 2 Time(s): alternatives: applying system-wide alternatives
+ 2 Time(s): arch_timer: cp15 timer(s) running at 24.00MHz (virt).
+ 2 Time(s): async_tx: api initialized (async)
+ 2 Time(s): audit: initializing netlink subsys (disabled)
+ 2 Time(s): blacklist: Loading compiled-in revocation X.509 certificates
+ 2 Time(s): cdrom: Uniform CD-ROM driver Revision: 3.20
+ 2 Time(s): cfg80211: Loading compiled-in X.509 certificates for regulatory database
+ 2 Time(s): clk: Disabling unused clocks
+ 2 Time(s): clocksource: Switched to clocksource arch_sys_counter
+ 2 Time(s): clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x588fe9dc0, max_idle_ns: 440795202592 ns
+ 2 Time(s): clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns
+ 2 Time(s): cma: Reserved 32 MiB at 0x00000000fe000000 on node -1
+ 2 Time(s): cpuidle: using governor ladder
+ 2 Time(s): cpuidle: using governor menu
+ 2 Time(s): device-mapper: core: CONFIG_IMA_DISABLE_HTABLE is disabled. Duplicate IMA measurements will not be recorded in the IMA log.
+ 2 Time(s): device-mapper: ioctl: 4.48.0-ioctl (2023-03-01) initialised: dm-devel@redhat.com
+ 2 Time(s): device-mapper: uevent: version 1.0.3
+ 2 Time(s): devtmpfs: initialized
+ 2 Time(s): drop_monitor: Initializing network drop monitor service
+ 2 Time(s): efi: EFI v2.7 by EDK II
+ 2 Time(s): efi: SMBIOS 3.0=0x13f810000 MEMATTR=0x13e806118 ACPI 2.0=0x13c150018 MOKvar=0x13c060000 INITRD=0x13c483718 RNG=0x13c15dc98 MEMRESERVE=0x13c483318 
+ 2 Time(s): efivars: Registered efivars operations
+ 2 Time(s): evm: HMAC attrs: 0x1
+ 2 Time(s): evm: Initialising EVM extended attributes:
+ 2 Time(s): evm: security.SMACK64
+ 2 Time(s): evm: security.SMACK64EXEC
+ 2 Time(s): evm: security.SMACK64MMAP
+ 2 Time(s): evm: security.SMACK64TRANSMUTE
+ 2 Time(s): evm: security.apparmor
+ 2 Time(s): evm: security.capability
+ 2 Time(s): evm: security.ima
+ 2 Time(s): evm: security.selinux
+ 2 Time(s): fbcon: Deferring console take-over
+ 2 Time(s): fsl-mc MSI: ITS@0x8080000 domain created
+ 2 Time(s): ftrace: allocated 246 pages with 6 groups
+ 2 Time(s): ftrace: allocating 62723 entries in 246 pages
+ 2 Time(s): fuse: init (API version 7.39)
+ 2 Time(s): futex hash table entries: 4096 (order: 6, 262144 bytes, linear)
+ 2 Time(s): hid-generic 0003:0627:0001.0001: input,hidraw0: USB HID v0.01 Mouse [QEMU QEMU USB Tablet] on usb-0000:00:04.0-1/input0
+ 2 Time(s): hid-generic 0003:0627:0001.0002: input,hidraw1: USB HID v0.01 Mouse [QEMU QEMU USB Mouse] on usb-0000:00:04.0-2/input0
+ 2 Time(s): hid-generic 0003:0627:0001.0003: input,hidraw2: USB HID v1.11 Keyboard [QEMU QEMU USB Keyboard] on usb-0000:00:04.0-3/input0
+ 2 Time(s): hid: raw HID events driver (C) Jiri Kosina
+ 2 Time(s): hub 1-0:1.0: 4 ports detected
+ 2 Time(s): hub 1-0:1.0: USB hub found
+ 2 Time(s): hub 1-4:1.0: 8 ports detected
+ 2 Time(s): hub 1-4:1.0: USB hub found
+ 2 Time(s): hub 2-0:1.0: 4 ports detected
+ 2 Time(s): hub 2-0:1.0: USB hub found
+ 2 Time(s): hub 3-0:1.0: 4 ports detected
+ 2 Time(s): hub 3-0:1.0: USB hub found
+ 2 Time(s): hub 4-0:1.0: 4 ports detected
+ 2 Time(s): hub 4-0:1.0: USB hub found
+ 2 Time(s): hw-breakpoint: found 6 breakpoint and 4 watchpoint registers.
+ 2 Time(s): i2c_dev: i2c /dev entries driver
+ 2 Time(s): ima: Allocated hash algorithm: sha256
+ 2 Time(s): ima: No TPM chip found, activating TPM-bypass!
+ 2 Time(s): ima: No architecture policies found
+ 2 Time(s): ima: secureboot mode disabled
+ 2 Time(s): input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0
+ 2 Time(s): input: QEMU QEMU USB Keyboard as /devices/pci0000:00/0000:00:04.0/usb1/1-3/1-3:1.0/0003:0627:0001.0003/input/input3
+ 2 Time(s): input: QEMU QEMU USB Mouse as /devices/pci0000:00/0000:00:04.0/usb1/1-2/1-2:1.0/0003:0627:0001.0002/input/input2
+ 2 Time(s): input: QEMU QEMU USB Tablet as /devices/pci0000:00/0000:00:04.0/usb1/1-1/1-1:1.0/0003:0627:0001.0001/input/input1
+ 2 Time(s): input: spice vdagent tablet as /devices/virtual/input/input4
+ 2 Time(s): input: spice vdagent tablet as /devices/virtual/input/input5
+ 1 Time(s): input: spice vdagent tablet as /devices/virtual/input/input6
+ 2 Time(s): integrity: Loaded X.509 cert 'Microsoft Corporation UEFI CA 2011: 13adbf4309bd82709c8cd54f316ed522988a1bd4'
+ 2 Time(s): integrity: Loaded X.509 cert 'Microsoft Windows Production PCA 2011: a92902398e16c49778cd90f99e4f9ae17c55af53'
+ 4 Time(s): integrity: Loading X.509 certificate: UEFI:db
+ 2 Time(s): integrity: Machine keyring initialized
+ 2 Time(s): integrity: Platform Keyring initialized
+ 2 Time(s): io scheduler mq-deadline registered
+ 2 Time(s): iommu: DMA domain TLB invalidation policy: strict mode
+ 2 Time(s): iommu: Default domain type: Translated
+ 1 Time(s): kauditd_printk_skb: 143 callbacks suppressed
+ 1 Time(s): kauditd_printk_skb: 146 callbacks suppressed
+ 1 Time(s): kauditd_printk_skb: 20 callbacks suppressed
+ 2 Time(s): kvm [1]: HYP mode not available
+ 2 Time(s): landlock: Up and running.
+ 2 Time(s): ledtrig-cpu: registered to indicate activity on CPUs
+ 2 Time(s): libata version 3.00 loaded.
+ 2 Time(s): loop0: detected capacity change from 0 to 8
+ 2 Time(s): loop10: detected capacity change from 0 to 8
+ 2 Time(s): loop1: detected capacity change from 0 to 121960
+ 2 Time(s): loop2: detected capacity change from 0 to 141024
+ 2 Time(s): loop3: detected capacity change from 0 to 471776
+ 2 Time(s): loop4: detected capacity change from 0 to 1010608
+ 2 Time(s): loop5: detected capacity change from 0 to 187776
+ 2 Time(s): loop6: detected capacity change from 0 to 90656
+ 1 Time(s): loop7: detected capacity change from 0 to 87832
+ 1 Time(s): loop7: detected capacity change from 0 to 9608
+ 1 Time(s): loop8: detected capacity change from 0 to 416824
+ 1 Time(s): loop8: detected capacity change from 0 to 9608
+ 1 Time(s): loop9: detected capacity change from 0 to 416824
+ 1 Time(s): loop9: detected capacity change from 0 to 8
+ 1 Time(s): loop9: detected capacity change from 0 to 87832
+ 2 Time(s): loop: module loaded
+ 2 Time(s): mctp: management component transport protocol core
+ 2 Time(s): mem auto-init: stack:all(zero), heap alloc:on, heap free:off
+ 2 Time(s): mousedev: PS/2 mouse device common for all mice
+ 2 Time(s): msm_serial: driver initialized
+ 2 Time(s): pci 0000:00:00.0: [1b36:0008] type 00 class 0x060000 conventional PCI endpoint
+ 2 Time(s): pci 0000:00:01.0: BAR 0 [io  0x00e0-0x00ff]
+ 2 Time(s): pci 0000:00:01.0: BAR 0 [io  0x10c0-0x10df]: assigned
+ 2 Time(s): pci 0000:00:01.0: BAR 1 [mem 0x10060000-0x10060fff]: assigned
+ 2 Time(s): pci 0000:00:01.0: BAR 1 [mem 0x10064000-0x10064fff]
+ 2 Time(s): pci 0000:00:01.0: BAR 4 [mem 0x10040000-0x10043fff 64bit pref]: assigned
+ 2 Time(s): pci 0000:00:01.0: BAR 4 [mem 0x10050000-0x10053fff 64bit pref]
+ 2 Time(s): pci 0000:00:01.0: ROM [mem 0x10000000-0x1003ffff pref]: assigned
+ 2 Time(s): pci 0000:00:01.0: ROM [mem 0xfffc0000-0xffffffff pref]
+ 2 Time(s): pci 0000:00:01.0: [1af4:1000] type 00 class 0x020000 conventional PCI endpoint
+ 2 Time(s): pci 0000:00:02.0: BAR 1 [mem 0x10061000-0x10061fff]: assigned
+ 2 Time(s): pci 0000:00:02.0: BAR 1 [mem 0x10063000-0x10063fff]
+ 2 Time(s): pci 0000:00:02.0: BAR 4 [mem 0x10044000-0x10047fff 64bit pref]: assigned
+ 2 Time(s): pci 0000:00:02.0: BAR 4 [mem 0x1004c000-0x1004ffff 64bit pref]
+ 2 Time(s): pci 0000:00:02.0: [1af4:1050] type 00 class 0x038000 conventional PCI endpoint
+ 2 Time(s): pci 0000:00:03.0: BAR 0 [mem 0x10048000-0x1004bfff]: assigned
+ 2 Time(s): pci 0000:00:03.0: BAR 0 [mem 0x1005c000-0x1005ffff]
+ 2 Time(s): pci 0000:00:03.0: [8086:2668] type 00 class 0x040300 conventional PCI endpoint
+ 2 Time(s): pci 0000:00:04.0: BAR 0 [mem 0x1004c000-0x1004ffff 64bit]: assigned
+ 2 Time(s): pci 0000:00:04.0: BAR 0 [mem 0x10054000-0x10057fff 64bit]
+ 2 Time(s): pci 0000:00:04.0: [1033:0194] type 00 class 0x0c0330 PCIe Root Complex Integrated Endpoint
+ 2 Time(s): pci 0000:00:04.0: enabling device (0000 -> 0002)
+ 2 Time(s): pci 0000:00:05.0: BAR 0 [mem 0x10050000-0x10053fff 64bit]: assigned
+ 2 Time(s): pci 0000:00:05.0: BAR 0 [mem 0x10058000-0x1005bfff 64bit]
+ 2 Time(s): pci 0000:00:05.0: [1b36:000d] type 00 class 0x0c0330 PCIe Root Complex Integrated Endpoint
+ 2 Time(s): pci 0000:00:05.0: enabling device (0000 -> 0002)
+ 2 Time(s): pci 0000:00:06.0: BAR 0 [io  0x0000-0x007f]
+ 2 Time(s): pci 0000:00:06.0: BAR 0 [io  0x1000-0x107f]: assigned
+ 2 Time(s): pci 0000:00:06.0: BAR 1 [mem 0x10062000-0x10062fff]
+ 2 Time(s): pci 0000:00:06.0: BAR 1 [mem 0x10062000-0x10062fff]: assigned
+ 2 Time(s): pci 0000:00:06.0: BAR 4 [mem 0x10048000-0x1004bfff 64bit pref]
+ 2 Time(s): pci 0000:00:06.0: BAR 4 [mem 0x10054000-0x10057fff 64bit pref]: assigned
+ 2 Time(s): pci 0000:00:06.0: [1af4:1001] type 00 class 0x010000 conventional PCI endpoint
+ 2 Time(s): pci 0000:00:07.0: BAR 0 [io  0x0080-0x00bf]
+ 2 Time(s): pci 0000:00:07.0: BAR 0 [io  0x1080-0x10bf]: assigned
+ 2 Time(s): pci 0000:00:07.0: BAR 1 [mem 0x10061000-0x10061fff]
+ 2 Time(s): pci 0000:00:07.0: BAR 1 [mem 0x10063000-0x10063fff]: assigned
+ 2 Time(s): pci 0000:00:07.0: BAR 4 [mem 0x10044000-0x10047fff 64bit pref]
+ 2 Time(s): pci 0000:00:07.0: BAR 4 [mem 0x10058000-0x1005bfff 64bit pref]: assigned
+ 2 Time(s): pci 0000:00:07.0: [1af4:1003] type 00 class 0x078000 conventional PCI endpoint
+ 2 Time(s): pci 0000:00:08.0: BAR 0 [io  0x00c0-0x00df]
+ 2 Time(s): pci 0000:00:08.0: BAR 0 [io  0x10e0-0x10ff]: assigned
+ 2 Time(s): pci 0000:00:08.0: BAR 1 [mem 0x10060000-0x10060fff]
+ 2 Time(s): pci 0000:00:08.0: BAR 1 [mem 0x10064000-0x10064fff]: assigned
+ 2 Time(s): pci 0000:00:08.0: BAR 4 [mem 0x10040000-0x10043fff 64bit pref]
+ 2 Time(s): pci 0000:00:08.0: BAR 4 [mem 0x1005c000-0x1005ffff 64bit pref]: assigned
+ 2 Time(s): pci 0000:00:08.0: [1af4:1005] type 00 class 0x00ff00 conventional PCI endpoint
+ 2 Time(s): pci_bus 0000:00: resource 4 [mem 0x10000000-0x3efeffff window]
+ 2 Time(s): pci_bus 0000:00: resource 5 [io  0x0000-0xffff window]
+ 2 Time(s): pci_bus 0000:00: root bus resource [bus 00-0f]
+ 2 Time(s): pci_bus 0000:00: root bus resource [io  0x0000-0xffff window]
+ 2 Time(s): pci_bus 0000:00: root bus resource [mem 0x10000000-0x3efeffff window]
+ 2 Time(s): pcpu-alloc: [0] 00 [0] 01 [0] 02 [0] 03 [0] 04 [0] 05 [0] 06 [0] 07 
+ 2 Time(s): pcpu-alloc: [0] 08 [0] 09 
+ 2 Time(s): pcpu-alloc: s95784 r8192 d117208 u221184 alloc=54*4096
+ 2 Time(s): percpu: Embedded 54 pages/cpu s95784 r8192 d117208 u221184
+ 2 Time(s): pid_max: default: 32768 minimum: 301
+ 2 Time(s): pinctrl core: initialized pinctrl subsystem
+ 2 Time(s): pnp: PnP ACPI init
+ 2 Time(s): pnp: PnP ACPI: found 1 devices
+ 2 Time(s): pps_core: LinuxPPS API ver. 1 registered
+ 2 Time(s): pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+ 2 Time(s): printk: legacy console [ttyAMA0] enabled
+ 2 Time(s): psci: PSCIv1.1 detected in firmware.
+ 2 Time(s): psci: SMC Calling Convention v1.0
+ 2 Time(s): psci: Trusted OS migration not required
+ 2 Time(s): psci: Using standard PSCI v0.2 function IDs
+ 2 Time(s): psci: probing for conduit method from ACPI.
+ 2 Time(s): pstore: Registered efi_pstore as persistent store backend
+ 2 Time(s): pstore: Using crash dump compression: deflate
+ 1 Time(s): raid6: .... xor() 19828 MB/s, rmw enabled
+ 1 Time(s): raid6: .... xor() 28231 MB/s, rmw enabled
+ 1 Time(s): raid6: int64x1  gen()  9968 MB/s
+ 1 Time(s): raid6: int64x1  gen() 10015 MB/s
+ 1 Time(s): raid6: int64x2  gen() 11808 MB/s
+ 1 Time(s): raid6: int64x2  gen() 12042 MB/s
+ 1 Time(s): raid6: int64x4  gen() 13401 MB/s
+ 1 Time(s): raid6: int64x4  gen() 14009 MB/s
+ 1 Time(s): raid6: int64x8  gen() 15130 MB/s
+ 1 Time(s): raid6: int64x8  gen() 15133 MB/s
+ 1 Time(s): raid6: neonx1   gen() 31461 MB/s
+ 1 Time(s): raid6: neonx1   gen() 32005 MB/s
+ 1 Time(s): raid6: neonx2   gen() 31038 MB/s
+ 1 Time(s): raid6: neonx2   gen() 31844 MB/s
+ 1 Time(s): raid6: neonx4   gen() 30795 MB/s
+ 1 Time(s): raid6: neonx4   gen() 32175 MB/s
+ 1 Time(s): raid6: neonx8   gen() 31879 MB/s
+ 1 Time(s): raid6: neonx8   gen() 31913 MB/s
+ 1 Time(s): raid6: using algorithm neonx1 gen() 32005 MB/s
+ 1 Time(s): raid6: using algorithm neonx4 gen() 32175 MB/s
+ 2 Time(s): raid6: using neon recovery algorithm
+ 2 Time(s): random: crng init done
+ 2 Time(s): rcu: 	Max phase no-delay instances is 400.
+ 2 Time(s): rcu: 	RCU restricting CPUs from NR_CPUS=512 to nr_cpu_ids=10.
+ 2 Time(s): rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=10
+ 2 Time(s): rcu: Hierarchical SRCU implementation.
+ 2 Time(s): rcu: Preemptible hierarchical RCU implementation.
+ 2 Time(s): rcu: RCU calculated value of scheduler-enlistment delay is 100 jiffies.
+ 2 Time(s): rcu: srcu_init: Setting srcu_struct sizes based on contention.
+ 2 Time(s): registered taskstats version 1
+ 4 Time(s): rfkill: input handler disabled
+ 2 Time(s): rfkill: input handler enabled
+ 2 Time(s): rtc-efi rtc-efi.0: registered as rtc0
+ 1 Time(s): rtc-efi rtc-efi.0: setting system clock to 2025-07-09T15:46:26 UTC (1752075986)
+ 1 Time(s): rtc-efi rtc-efi.0: setting system clock to 2025-07-09T20:06:43 UTC (1752091603)
+ 2 Time(s): sched_clock: 56 bits at 24MHz, resolution 41ns, wraps every 4398046511097ns
+ 2 Time(s): scmi_core: SCMI protocol bus registered
+ 2 Time(s): scsi 0:0:0:0: CD-ROM            QEMU     QEMU CD-ROM      2.5+ PQ: 0 ANSI: 5
+ 2 Time(s): scsi host0: usb-storage 1-4.1:1.0
+ 2 Time(s): secureboot: Secure boot disabled
+ 2 Time(s): setend instruction emulation is not supported on this system
+ 2 Time(s): shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+ 2 Time(s): smp: Bringing up secondary CPUs ...
+ 2 Time(s): smp: Brought up 1 node, 10 CPUs
+ 2 Time(s): snd_hda_codec_generic hdaudioC0D0:      Line=0x5
+ 2 Time(s): snd_hda_codec_generic hdaudioC0D0:    hp_outs=0 (0x0/0x0/0x0/0x0/0x0)
+ 2 Time(s): snd_hda_codec_generic hdaudioC0D0:    inputs:
+ 2 Time(s): snd_hda_codec_generic hdaudioC0D0:    mono: mono_out=0x0
+ 2 Time(s): snd_hda_codec_generic hdaudioC0D0:    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)
+ 2 Time(s): snd_hda_codec_generic hdaudioC0D0: autoconfig for Generic: line_outs=1 (0x3/0x0/0x0/0x0/0x0) type:line
+ 2 Time(s): snd_hda_intel 0000:00:03.0: Force to snoop mode by module option
+ 2 Time(s): snd_hda_intel 0000:00:03.0: enabling device (0000 -> 0002)
+ 2 Time(s): software IO TLB: area num 16.
+ 2 Time(s): software IO TLB: mapped [mem 0x00000000fa000000-0x00000000fe000000] (64MB)
+ 2 Time(s): squashfs: version 4.0 (2009/01/31) Phillip Lougher
+ 2 Time(s): sr 0:0:0:0: Attached scsi CD-ROM sr0
+ 2 Time(s): sr 0:0:0:0: Attached scsi generic sg0 type 5
+ 2 Time(s): sr 0:0:0:0: [sr0] scsi3-mmc drive: 16x/50x cd/rw xa/form2 cdda tray
+ 2 Time(s): system 00:00: [mem 0x3f000000-0x3fffffff window] could not be reserved
+ 2 Time(s): tcp_listen_portaddr_hash hash table entries: 2048 (order: 3, 32768 bytes, linear)
+ 2 Time(s): thermal_sys: Registered thermal governor 'bang_bang'
+ 2 Time(s): thermal_sys: Registered thermal governor 'fair_share'
+ 2 Time(s): thermal_sys: Registered thermal governor 'power_allocator'
+ 2 Time(s): thermal_sys: Registered thermal governor 'step_wise'
+ 2 Time(s): thermal_sys: Registered thermal governor 'user_space'
+ 2 Time(s): tun: Universal TUN/TAP device driver, 1.6
+ 2 Time(s): usb 1-1: Manufacturer: QEMU
+ 2 Time(s): usb 1-1: New USB device found, idVendor=0627, idProduct=0001, bcdDevice= 0.00
+ 2 Time(s): usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=10
+ 2 Time(s): usb 1-1: Product: QEMU USB Tablet
+ 2 Time(s): usb 1-1: SerialNumber: 28754-0000:00:04.0-1
+ 2 Time(s): usb 1-1: new high-speed USB device number 2 using xhci_hcd
+ 2 Time(s): usb 1-2: Manufacturer: QEMU
+ 2 Time(s): usb 1-2: New USB device found, idVendor=0627, idProduct=0001, bcdDevice= 0.00
+ 2 Time(s): usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=9
+ 2 Time(s): usb 1-2: Product: QEMU USB Mouse
+ 2 Time(s): usb 1-2: SerialNumber: 89126-0000:00:04.0-2
+ 2 Time(s): usb 1-2: new high-speed USB device number 3 using xhci_hcd
+ 2 Time(s): usb 1-3: Manufacturer: QEMU
+ 2 Time(s): usb 1-3: New USB device found, idVendor=0627, idProduct=0001, bcdDevice= 0.00
+ 2 Time(s): usb 1-3: New USB device strings: Mfr=1, Product=4, SerialNumber=11
+ 2 Time(s): usb 1-3: Product: QEMU USB Keyboard
+ 2 Time(s): usb 1-3: SerialNumber: 68284-0000:00:04.0-3
+ 2 Time(s): usb 1-3: new high-speed USB device number 4 using xhci_hcd
+ 2 Time(s): usb 1-4.1: Manufacturer: QEMU
+ 2 Time(s): usb 1-4.1: New USB device found, idVendor=46f4, idProduct=0001, bcdDevice= 0.00
+ 2 Time(s): usb 1-4.1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+ 2 Time(s): usb 1-4.1: Product: QEMU USB HARDDRIVE
+ 2 Time(s): usb 1-4.1: SerialNumber: 1-0000:00:04.0-4.1
+ 2 Time(s): usb 1-4.1: new full-speed USB device number 6 using xhci_hcd
+ 2 Time(s): usb 1-4.1: not running at top speed; connect to a high speed hub
+ 2 Time(s): usb 1-4: Manufacturer: QEMU
+ 2 Time(s): usb 1-4: New USB device found, idVendor=0409, idProduct=55aa, bcdDevice= 1.01
+ 2 Time(s): usb 1-4: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+ 2 Time(s): usb 1-4: Product: QEMU USB Hub
+ 2 Time(s): usb 1-4: SerialNumber: 314159-0000:00:04.0-4
+ 2 Time(s): usb 1-4: new full-speed USB device number 5 using xhci_hcd
+ 2 Time(s): usb usb1: Manufacturer: Linux 6.8.0-63-generic xhci-hcd
+ 2 Time(s): usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.08
+ 2 Time(s): usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+ 2 Time(s): usb usb1: Product: xHCI Host Controller
+ 2 Time(s): usb usb1: SerialNumber: 0000:00:04.0
+ 2 Time(s): usb usb2: Manufacturer: Linux 6.8.0-63-generic xhci-hcd
+ 2 Time(s): usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 6.08
+ 2 Time(s): usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+ 2 Time(s): usb usb2: Product: xHCI Host Controller
+ 2 Time(s): usb usb2: SerialNumber: 0000:00:04.0
+ 2 Time(s): usb usb2: We don't know the algorithms for LPM for this host, disabling LPM.
+ 2 Time(s): usb usb3: Manufacturer: Linux 6.8.0-63-generic xhci-hcd
+ 2 Time(s): usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.08
+ 2 Time(s): usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+ 2 Time(s): usb usb3: Product: xHCI Host Controller
+ 2 Time(s): usb usb3: SerialNumber: 0000:00:05.0
+ 2 Time(s): usb usb4: Manufacturer: Linux 6.8.0-63-generic xhci-hcd
+ 2 Time(s): usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 6.08
+ 2 Time(s): usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+ 2 Time(s): usb usb4: Product: xHCI Host Controller
+ 2 Time(s): usb usb4: SerialNumber: 0000:00:05.0
+ 2 Time(s): usb usb4: We don't know the algorithms for LPM for this host, disabling LPM.
+ 2 Time(s): usb-storage 1-4.1:1.0: USB Mass Storage device detected
+ 2 Time(s): usbcore: registered new device driver usb
+ 2 Time(s): usbcore: registered new interface driver hub
+ 2 Time(s): usbcore: registered new interface driver uas
+ 2 Time(s): usbcore: registered new interface driver usb-storage
+ 2 Time(s): usbcore: registered new interface driver usbfs
+ 2 Time(s): usbcore: registered new interface driver usbhid
+ 2 Time(s): usbhid: USB HID core driver
+ 2 Time(s): vgaarb: loaded
+ 2 Time(s): virtio-pci 0000:00:01.0: enabling device (0000 -> 0003)
+ 2 Time(s): virtio-pci 0000:00:02.0: [drm] fb0: virtio_gpudrmfb frame buffer device
+ 2 Time(s): virtio-pci 0000:00:06.0: enabling device (0005 -> 0007)
+ 2 Time(s): virtio-pci 0000:00:07.0: enabling device (0000 -> 0003)
+ 2 Time(s): virtio-pci 0000:00:08.0: enabling device (0005 -> 0007)
+ 2 Time(s): virtio_blk virtio2: 10/0/0 default/read/poll queues
+ 2 Time(s): virtio_blk virtio2: [vda] 134217728 512-byte logical blocks (68.7 GB/64.0 GiB)
+ 2 Time(s): virtio_net virtio0 enp0s1: renamed from eth0
+ 2 Time(s): workingset: timestamp_bits=40 max_order=20 bucket_order=0
+ 2 Time(s): xhci_hcd 0000:00:04.0: Host supports USB 3.0 SuperSpeed
+ 2 Time(s): xhci_hcd 0000:00:04.0: hcc params 0x00080001 hci version 0x100 quirks 0x0000000000000014
+ 2 Time(s): xhci_hcd 0000:00:04.0: new USB bus registered, assigned bus number 1
+ 2 Time(s): xhci_hcd 0000:00:04.0: new USB bus registered, assigned bus number 2
+ 4 Time(s): xhci_hcd 0000:00:04.0: xHCI Host Controller
+ 2 Time(s): xhci_hcd 0000:00:05.0: Host supports USB 3.0 SuperSpeed
+ 2 Time(s): xhci_hcd 0000:00:05.0: hcc params 0x00087001 hci version 0x100 quirks 0x0000000000000010
+ 2 Time(s): xhci_hcd 0000:00:05.0: new USB bus registered, assigned bus number 3
+ 2 Time(s): xhci_hcd 0000:00:05.0: new USB bus registered, assigned bus number 4
+ 4 Time(s): xhci_hcd 0000:00:05.0: xHCI Host Controller
+ 2 Time(s): xor: measuring software checksum speed
+ 1 Time(s): xor: using function: arm64_neon (51838 MB/sec)
+ 1 Time(s): xor: using function: arm64_neon (52355 MB/sec)
+ 2 Time(s): zbud: loaded
+ 
+ ---------------------- Kernel End ------------------------- 
+
+ 
+ --------------------- pam_unix Begin ------------------------ 
+
+ cron:
+    Unknown Entries:
+       session opened for user root(uid=0) by root(uid=0): 58 Time(s)
+ 
+ gdm-launch-environment:
+    Sessions Opened:
+       gdm(uid=123): 2 Time(s)
+ 
+ gdm-password:
+    Sessions Opened:
+       ubuntu(uid=1000): 2 Time(s)
+ 
+ polkit-1:
+    Sessions Opened:
+       ubuntu -> root(uid=0): 1 Time(s)
+ 
+ sshd:
+    Authentication Failures:
+       ubuntu (192.168.1.213): 13 Time(s)
+       unknown (192.168.1.195): 3 Time(s)
+    Invalid Users:
+       Unknown Account: 3 Time(s)
+    Sessions Opened:
+       ubuntu(uid=1000) by ubuntu: 1 Time(s)
+ 
+ sudo:
+    Authentication Failures:
+       ubuntu(1000) -> ubuntu: 1 Time(s)
+    Sessions Opened:
+       ubuntu -> root(uid=0): 86 Time(s)
+ 
+ systemd-user:
+    Sessions Opened:
+       gdm(uid=123) by gdm: 2 Time(s)
+       ubuntu(uid=1000) by ubuntu: 2 Time(s)
+ 
+ vsftpd:
+    Authentication Failures:
+       unknown (::ffff:192.168.1.195): 3 Time(s)
+    Invalid Users:
+       Unknown Account: 3 Time(s)
+ 
+ 
+ ---------------------- pam_unix End ------------------------- 
+
+ 
+ --------------------- Postfix Begin ------------------------ 
+
+ ****** Summary *************************************************************************************
+ 
+        1   Postfix start                                    1
+ 
+ 
+ ---------------------- Postfix End ------------------------- 
+
+ 
+ --------------------- rsyslogd Begin ------------------------ 
+
+ Rsyslogd Actions:
+    exiting on signal 15.: 3 Times
+    start: 5 Times
+ 
+ 
+ ---------------------- rsyslogd End ------------------------- 
+
+ 
+ --------------------- Connections (secure-log) Begin ------------------------ 
+
+ New Users:
+    ftp (125)
+    postfix (125)
+ 
+ Deleted Users:
+    ftp
+ 
+ New Groups:
+    ftp (125)
+    postfix (125)
+    postdrop (126)
+ 
+ Deleted Groups:
+    ftp
+    ftp
+ 
+ 
+ **Unmatched Entries**
+    chfn: changed user 'ftp' information: 1 Time(s)
+    dbus-daemon: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms): 2 Time(s)
+    gnome-keyring-daemon: The PKCS#11 component was already initialized: 2 Time(s)
+    gnome-keyring-daemon: The Secret Service was already initialized: 2 Time(s)
+    gnome-keyring-daemon: discover_other_daemon: 1: 6 Time(s)
+    systemd-logind: Session c1 logged out. Waiting for processes to exit.: 2 Time(s)
+ 
+ ---------------------- Connections (secure-log) End ------------------------- 
+
+ 
+ --------------------- sendmail Begin ------------------------ 
+
+ 
+ 
+ STATISTICS
+ ----------
+ 
+ STARTTLS used the following encryption mechanisms
+ 
+ ---------------------- sendmail End ------------------------- 
+
+ 
+ --------------------- SSHD Begin ------------------------ 
+
+ 
+ SSHD Started: 2 Times
+ 
+ Negotiation failed:
+    no matching host key type found
+       192.168.1.195: 8 Times
+         ecdsa-sha2-nistp384: 2 Times
+         ecdsa-sha2-nistp521: 2 Times
+         ssh-dss: 2 Times
+         ssh-rsa: 2 Times
+ 
+ Failed logins from:
+    192.168.1.213 (Manuels-MBP.attlocal.net): 5 Times
+       ubuntu/password: 5 Times
+ 
+ Illegal users from:
+    192.168.1.195: 5 Times
+       kali: 5 Times
+ 
+ Users logging in through sshd:
+    ubuntu:
+       192.168.1.213 (Manuels-MBP.attlocal.net): 1 Time
+ 
+ **Unmatched Entries**
+ error: Protocol major versions differ: 2 vs. 1 : 4 Times
+ message repeated 2 times: [ Failed password for ubuntu from 192.168.1.213 port 60713 ssh2] : 1 Time
+ message repeated 2 times: [ Failed password for ubuntu from 192.168.1.213 port 60776 ssh2] : 1 Time
+ message repeated 2 times: [ Failed password for ubuntu from 192.168.1.213 port 60789 ssh2] : 1 Time
+ message repeated 2 times: [ Failed password for ubuntu from 192.168.1.213 port 60835 ssh2] : 1 Time
+ 
+ ---------------------- SSHD End ------------------------- 
+
+ 
+ --------------------- Sudo (secure-log) Begin ------------------------ 
+
+ 
+ ubuntu => root
+ --------------
+ /usr/bin/apt update
+ /usr/bin/apt upgrade -y
+ /usr/bin/apt install ufw -y
+ /usr/bin/apt install fail2ban -y
+ /usr/bin/apt install vsftpd -y
+ /usr/sbin/ufw default deny incoming
+ /usr/sbin/ufw default allow outgoing
+ /usr/sbin/ufw allow ssh
+ /usr/sbin/ufw allow ftp
+ /usr/sbin/ufw enable
+ /usr/sbin/ufw status verbose
+ /usr/bin/apt remove vsftpd -y
+ /usr/sbin/ufw delete allow ftp
+ /usr/bin/cp /etc/fail2ban/jail.confi /etc/fail2ban/jail.local
+ /usr/bin/cp /etc/fail2ban/jail.confi
+ /usr/bin/cp /etc/fail2ban/jail.confi/etc/fail2ban/jail.local
+ /usr/bin/cp /etc/fail2ban/jail.conf/ etc/fail2ban/jail.local
+ /usr/bin/cp /etc/fail2ban/jail.conf/
+ /usr/bin/cp /etc/fail2ban/jail.conf/etc/fail2ban/jail.local
+ /usr/bin/nano etc/fail2ban/jail.local
+ /usr/bin/nano etc/fail2ban/jail.local
+ /usr/bin/nano etc/fail2ban/jail.local
+ /usr/bin/apt update
+ /usr/bin/apt upgrade -y
+ /usr/bin/apt install fail2ban -y
+ /usr/bin/cp /etc/fail2ban/jail.conf/ etc/fail2ban/jail.local
+ /usr/bin/cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
+ /usr/bin/nano /etc/fail2ban/jail.local
+ /usr/bin/systemctl restart fail2ban
+ /usr/bin/fail2ban-client status sshd
+ /usr/bin/nano /etc/fail2ban/jail.local
+ /usr/bin/systemctl restart fail2ban
+ /usr/bin/nano /etc/fail2ban/jail.local
+ /usr/bin/fail2ban-client status sshd
+ /usr/bin/systemctl restart fail2ban
+ /usr/bin/journalctl -xe
+ /usr/bin/journalctl -xeu fail2ban
+ /usr/bin/fail2ban-client status sshd
+ /usr/bin/systemctl start fail2ban
+ /usr/bin/systemctl status fail2ban
+ /usr/bin/nano /etc/fail2ban/jail.local
+ /usr/bin/systemctl restart fail2ban
+ /usr/bin/fail2ban-client status sshd
+ /usr/bin/systemctl status fail2ban
+ /usr/bin/nano /etc/fail2ban/jail.local
+ /usr/bin/systemctl restart fail2ban
+ /usr/bin/systemctl status fail2ban
+ /usr/bin/nano /etc/fail2ban/jail.local
+ /usr/bin/systemctl restart fail2ban
+ /usr/bin/fail2ban-client status sshd
+ /usr/bin/systemctl status fail2ban
+ /usr/bin/nano /etc/fail2ban/jail.local
+ /usr/bin/systemctl restart fail2ban
+ /usr/bin/fail2ban-client status sshd
+ /usr/bin/nano /etc/fail2ban/jail.local
+ /usr/bin/systemctl restart fail2ban
+ /usr/bin/fail2ban-client status sshd
+ /usr/bin/fail2ban-client status sshd
+ /usr/bin/fail2ban-client status sshd
+ /usr/bin/fail2ban-client status sshd
+ /usr/bin/nano /etc/fail2ban/jail.local
+ /usr/bin/nano /etc/fail2ban/jail.local
+ /usr/bin/fail2ban-client status sshd
+ /usr/bin/tail /var/log/auth.log
+ /usr/bin/tail /var/log.fail2ban.log
+ /usr/bin/tail /var/log/fail2ban.log
+ /usr/bin/fail2ban-client status sshd
+ /usr/bin/fail2ban-client status sshd unbanip 192.168.1.213
+ /usr/bin/fail2ban-client status sshd
+ /usr/bin/fail2ban-client set status sshd unbanip 192.168.1.213
+ /usr/bin/fail2ban-client set sshd unbanip 192.168.1.213
+ /usr/bin/fail2ban-client status sshd
+ /usr/bin/cp /etc/fail2ban/jail.local /home/ubuntu/fail2ban-ssh-harding/
+ /usr/bin/fail2ban-client status sshd
+ /usr/bin/cp /var/log/auth.log \
+     /home/ubuntu/fail2ban-ssh-harding/fail2ban-auth.log
+ /usr/bin/chown ubuntu:ubuntu \
+     /home/ubuntu/fail2ban-ssh-hardening/fail2ban-auth.log
+ /usr/bin/apt install git -y
+ /usr/bin/apt update
+ /usr/bin/apt install spice-vdagent
+ /usr/bin/systemctl start spice-vdagent
+ /usr/bin/systemctl enable spice-vdagent
+ /usr/bin/apt update
+ /usr/bin/apt install logwatch -y
+ /usr/sbin/logwatch --detail high --service all --range today --format text
+ /usr/sbin/logwatch --detail high --service all --range today --format text
+ /usr/bin/crontab -e
+ 
+ ---------------------- Sudo (secure-log) End ------------------------- 
+
+ 
+ --------------------- Disk Space Begin ------------------------ 
+
+ Filesystem                         Size  Used Avail Use% Mounted on
+ efivarfs                           256K   26K  231K  10% /sys/firmware/efi/efivars
+ /dev/mapper/ubuntu--vg-ubuntu--lv   30G   15G   15G  50% /
+ /dev/vda2                          2.0G  106M  1.7G   6% /boot
+ /dev/vda1                          1.1G  6.4M  1.1G   1% /boot/efi
+ 
+ 
+ ---------------------- Disk Space End ------------------------- 
+
+ 
+ --------------------- Network Report Begin ------------------------ 
+
+ 
+ 
+ ------------- Network statistics ---------------
+ 
+ 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+     inet 127.0.0.1/8 scope host lo
+        valid_lft forever preferred_lft forever
+     inet6 ::1/128 scope host noprefixroute 
+        valid_lft forever preferred_lft forever
+     RX:  bytes packets errors dropped  missed   mcast           
+           372k   4.21k      0       0       0       0 
+     TX:  bytes packets errors dropped carrier collsns           
+           372k   4.21k      0       0       0       0 
+ 2: enp0s1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+     link/ether 52:ee:c1:f3:93:44 brd ff:ff:ff:ff:ff:ff
+     inet 192.168.1.194/24 brd 192.168.1.255 scope global dynamic noprefixroute enp0s1
+        valid_lft 74078sec preferred_lft 74078sec
+     inet6 2600:1700:3190:1860:87f8:d069:2e6e:5a/64 scope global temporary dynamic 
+        valid_lft 3393sec preferred_lft 3393sec
+     inet6 2600:1700:3190:1860:50ee:c1ff:fef3:9344/64 scope global dynamic mngtmpaddr 
+        valid_lft 3393sec preferred_lft 3393sec
+     inet6 fe80::50ee:c1ff:fef3:9344/64 scope link 
+        valid_lft forever preferred_lft forever
+     RX:  bytes packets errors dropped  missed   mcast           
+          24.7M   87.8k      0   1.05k       0       0 
+     TX:  bytes packets errors dropped carrier collsns           
+           949k   17.0k      0       0       0       0 
+ 
+ 
+ ------------- Network statistics ---------------
+ 
+ 
+ 
+ 
+ ------------- Listening sockets ---------------
+ 
+ can't run netstat: No such file or directory at /usr/share/logwatch/scripts/services/zz-network line 179.
+ 
+ ---------------------- Network Report End ------------------------- 
+
+ 
+ ###################### Logwatch End ######################### 
+
